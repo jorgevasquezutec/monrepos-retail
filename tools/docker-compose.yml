@@ -1,0 +1,29 @@
+# Levanta el generador de cuerpo CC0 sin tocar tu máquina.
+#   cd tools && docker compose up --build
+# Luego:
+#   curl -X POST localhost:8000/generate-to-file \
+#     -H 'Content-Type: application/json' \
+#     -d '{"bust":158,"waist":159,"hip":145,"height":168,"gender":"female"}'
+# El GLB aparece en apps/web/public/models/avatar-body.glb → recarga la web.
+
+services:
+  avatar:
+    # Blender solo existe para Linux x86_64; en Apple Silicon se emula con Rosetta.
+    platform: linux/amd64
+    build:
+      context: ..
+      dockerfile: tools/Dockerfile
+    image: croma-avatar
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    ports:
+      # host:contenedor — 8123 elegido por estar libre (8000 y 8080 ya ocupados).
+      - "8123:8000"
+    volumes:
+      # El GLB generado cae directamente en la carpeta que sirve el front.
+      - ../apps/web/public/models:/out

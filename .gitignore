@@ -1,0 +1,27 @@
+node_modules/
+dist/
+apps/api/data/
+*.tsbuildinfo
+.DS_Store
+coverage/
+.vite/
+
+# e2e
+e2e/.report/
+e2e/.results/
+test-results/
+playwright-report/
+
+# python
+__pycache__/
+*.pyc
+
+# secretos y datos locales
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+*.sqlite3
+*.pem
+*.key
