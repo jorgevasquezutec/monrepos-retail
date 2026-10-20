@@ -3,6 +3,7 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { RoomEnvironment } from "three/examples/jsm/environments/RoomEnvironment.js";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+import { DRACOLoader } from "three/examples/jsm/loaders/DRACOLoader.js";
 import {
   rgbToHex,
   type Fabric,
@@ -35,7 +36,13 @@ export interface WornGarment {
   recommended?: SizeLabel | null;
 }
 
+// El GLB del servicio viene con geometría comprimida en Draco (gen_avatar.py):
+// pesa ~5x menos, clave cuando el servicio llega por un enlace lento/remoto.
+// DRACOLoader la descomprime en el navegador (decoder wasm desde la CDN oficial).
+const dracoLoader = new DRACOLoader();
+dracoLoader.setDecoderPath("https://www.gstatic.com/draco/versioned/decoders/1.5.7/");
 const gltfLoader = new GLTFLoader();
+gltfLoader.setDRACOLoader(dracoLoader);
 
 /** Luminancia lineal media de los píxeles opacos de una textura (0..1), o 1 si no se puede leer. */
 /** Luminancia media de un atributo de color por vértice (para compensar el tinte). */

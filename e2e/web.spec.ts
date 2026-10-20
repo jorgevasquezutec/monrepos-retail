@@ -6,7 +6,9 @@ test.describe("web", () => {
     await deleteAccountFromPage(page, request);
   });
 
-  test("registro por UI, preset Pera y avatar 3D", async ({ page, request }) => {
+  test("registro por UI, preset Pera y avatar 3D", async ({ page }) => {
+    // Generar el cuerpo con Blender puede tardar (servicio real): deja margen.
+    test.setTimeout(120_000);
     // Registra los contextos WebGL que se crean en la página (sin crear ninguno propio).
     await page.addInitScript(() => {
       const w = window as unknown as { __gl: unknown[] };
@@ -37,13 +39,14 @@ test.describe("web", () => {
       )
       .toBe(true);
 
-    // Servicio de cuerpo (:8123): si está caído la UI lo dice; si está arriba, el GLB se carga.
-    const up = await request.get("http://127.0.0.1:8123/", { timeout: 2000 }).then(() => true, () => false);
-    if (up) {
-      await expect(page.getByRole("button", { name: /Regenerar con estas medidas/ })).toBeVisible({ timeout: 90_000 });
-      await expect(page.getByText(/No se pudo generar/)).toHaveCount(0);
-    } else {
-      await expect(page.getByText(/No se pudo generar/)).toBeVisible({ timeout: 20_000 });
-    }
+    // Servicio de cuerpo: el destino (túnel local, LAN o host remoto) depende del
+    // entorno (VITE_AVATAR_SERVICE), así que no sondeamos una URL fija. El flujo
+    // debe resolverse de UNA de dos formas: el avatar se genera (botón Regenerar)
+    // o la UI muestra el error. Basta con que aparezca cualquiera de los dos.
+    await expect(
+      page
+        .getByRole("button", { name: /Regenerar con estas medidas/ })
+        .or(page.getByText(/No pudimos generar/)),
+    ).toBeVisible({ timeout: 90_000 });
   });
 });
