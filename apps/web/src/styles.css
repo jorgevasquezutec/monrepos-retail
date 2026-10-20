@@ -1418,7 +1418,31 @@ body {
 .gen-failed { inset: 60px 0 0 0; gap: 12px; text-align: center; padding: 0 24px; }
 
 /* ---- Catálogo de fábrica (Shirley) ---------------------------------- */
-.catalogo-cta { width: 100%; margin: 14px 0 4px; }
+/* Botón sólido de acción (CTA), consistente con .est-btn del escenario. */
+.primary-btn {
+  border: none;
+  background: var(--ink);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 11px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s var(--ease), transform 0.12s var(--ease);
+}
+.primary-btn:hover { background: #26262a; }
+.primary-btn:active { transform: translateY(1px); }
+
+/* CTA del catálogo: alineado al inset del panel (28px), con aire arriba/abajo. */
+.catalogo-cta {
+  display: block;
+  width: calc(100% - 56px);
+  margin: 22px 28px 18px;
+  padding: 13px 18px;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+}
 
 .modal-wide { width: min(1040px, 100%); }
 
@@ -1441,7 +1465,9 @@ body {
 @media (max-width: 760px) { .cat-body { grid-template-columns: 1fr; } }
 
 .shirley-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  /* max-content: las filas toman el alto real de la card (si no, colapsan). */
+  grid-auto-rows: max-content;
   gap: 12px; max-height: 64vh; overflow-y: auto; padding: 2px; align-content: start;
 }
 .shirley-card {
@@ -1452,9 +1478,11 @@ body {
 .shirley-card:hover { border-color: var(--ink-3); transform: translateY(-2px); }
 .shirley-card.on { border-color: var(--focus); box-shadow: 0 0 0 1px var(--focus); }
 .shirley-thumb {
-  aspect-ratio: 3 / 4; background: #f4f4f1; display: flex; align-items: center; justify-content: center;
+  /* altura fija (aspect-ratio colapsaba dentro del <button> en algunos anchos). */
+  height: 190px; flex: none; background: #f4f4f1;
+  display: flex; align-items: center; justify-content: center; overflow: hidden;
 }
-.shirley-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.shirley-thumb img { width: 100%; height: 100%; object-fit: cover; object-position: top center; display: block; }
 .no-photo { font-family: var(--mono); font-size: 10px; color: var(--ink-3); }
 .shirley-meta { padding: 8px 9px 10px; display: flex; flex-direction: column; gap: 3px; }
 .shirley-meta strong {

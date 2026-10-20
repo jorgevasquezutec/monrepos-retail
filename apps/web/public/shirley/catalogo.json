@@ -19,7 +19,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": "01-115.jpg"
+    "foto": "01-115.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "01-137",
@@ -39,7 +40,8 @@
     },
     "total": 3,
     "peso_kg": 0.63,
-    "foto": "01-137.jpg"
+    "foto": "01-137.jpg",
+    "color": "#0c2424"
   },
   {
     "modelo": "01-139",
@@ -58,7 +60,8 @@
     },
     "total": 1,
     "peso_kg": 0.44,
-    "foto": "01-139.jpg"
+    "foto": "01-139.jpg",
+    "color": "#3c546c"
   },
   {
     "modelo": "01-150",
@@ -77,7 +80,8 @@
     },
     "total": 1,
     "peso_kg": 0.5,
-    "foto": "01-150.jpg"
+    "foto": "01-150.jpg",
+    "color": "#3c3c54"
   },
   {
     "modelo": "01-152",
@@ -96,7 +100,8 @@
     },
     "total": 1,
     "peso_kg": 0.5,
-    "foto": "01-152.jpg"
+    "foto": "01-152.jpg",
+    "color": "#24243c"
   },
   {
     "modelo": "01-159",
@@ -115,7 +120,8 @@
     },
     "total": 2,
     "peso_kg": 0.5,
-    "foto": "01-159.jpg"
+    "foto": "01-159.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "02-042",
@@ -134,7 +140,8 @@
     },
     "total": 1,
     "peso_kg": 0.275,
-    "foto": "02-042.jpg"
+    "foto": "02-042.jpg",
+    "color": "#e49ccc"
   },
   {
     "modelo": "02-098",
@@ -153,7 +160,8 @@
     },
     "total": 1,
     "peso_kg": 0.116,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "02-163",
@@ -172,7 +180,8 @@
     },
     "total": 1,
     "peso_kg": 0.275,
-    "foto": "02-163.jpg"
+    "foto": "02-163.jpg",
+    "color": "#6c849c"
   },
   {
     "modelo": "02-173",
@@ -191,7 +200,8 @@
     },
     "total": 1,
     "peso_kg": 0.376,
-    "foto": "02-173.jpg"
+    "foto": "02-173.jpg",
+    "color": "#840c24"
   },
   {
     "modelo": "02-A57",
@@ -215,7 +225,8 @@
     },
     "total": 11,
     "peso_kg": 0.118,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "02-A58",
@@ -234,7 +245,8 @@
     },
     "total": 1,
     "peso_kg": 0.275,
-    "foto": "02-A58.jpg"
+    "foto": "02-A58.jpg",
+    "color": "#3c3c54"
   },
   {
     "modelo": "02-A61",
@@ -253,7 +265,8 @@
     },
     "total": 1,
     "peso_kg": 0.2,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "02-A66",
@@ -272,7 +285,8 @@
     },
     "total": 2,
     "peso_kg": 0.33,
-    "foto": "02-A66.jpg"
+    "foto": "02-A66.jpg",
+    "color": "#0c0c24"
   },
   {
     "modelo": "02-A67",
@@ -291,7 +305,8 @@
     },
     "total": 1,
     "peso_kg": 0.307,
-    "foto": "02-A67.jpg"
+    "foto": "02-A67.jpg",
+    "color": "#0c0c24"
   },
   {
     "modelo": "02-A72",
@@ -310,7 +325,8 @@
     },
     "total": 1,
     "peso_kg": 0.361,
-    "foto": "02-A72.jpg"
+    "foto": "02-A72.jpg",
+    "color": "#243c54"
   },
   {
     "modelo": "02-A73",
@@ -330,7 +346,8 @@
     },
     "total": 1,
     "peso_kg": 0.282,
-    "foto": "02-A73.jpg"
+    "foto": "02-A73.jpg",
+    "color": "#242454"
   },
   {
     "modelo": "02-A79",
@@ -349,7 +366,8 @@
     },
     "total": 1,
     "peso_kg": 0.2,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "02-A80",
@@ -369,7 +387,8 @@
     },
     "total": 1,
     "peso_kg": 0.38,
-    "foto": "02-A80.jpg"
+    "foto": "02-A80.jpg",
+    "color": "#849c9c"
   },
   {
     "modelo": "02-A81",
@@ -388,7 +407,8 @@
     },
     "total": 1,
     "peso_kg": 0.264,
-    "foto": "02-A81.jpg"
+    "foto": "02-A81.jpg",
+    "color": "#b4b49c"
   },
   {
     "modelo": "02-A82",
@@ -408,7 +428,8 @@
     },
     "total": 2,
     "peso_kg": 0.275,
-    "foto": "02-A82.jpg"
+    "foto": "02-A82.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "02-A85",
@@ -428,7 +449,8 @@
     },
     "total": 1,
     "peso_kg": 0.275,
-    "foto": "02-A85.jpg"
+    "foto": "02-A85.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "02-A89",
@@ -448,7 +470,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": "02-A89.jpg"
+    "foto": "02-A89.jpg",
+    "color": "#242424"
   },
   {
     "modelo": "03-020",
@@ -479,7 +502,8 @@
     },
     "total": 23,
     "peso_kg": 0.4,
-    "foto": "03-020.jpg"
+    "foto": "03-020.jpg",
+    "color": "#6c2424"
   },
   {
     "modelo": "03-127",
@@ -499,7 +523,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": "03-127.jpg"
+    "foto": "03-127.jpg",
+    "color": "#9c3c3c"
   },
   {
     "modelo": "03-129",
@@ -520,7 +545,8 @@
     },
     "total": 2,
     "peso_kg": 0.104,
-    "foto": "03-129.jpg"
+    "foto": "03-129.jpg",
+    "color": "#6c849c"
   },
   {
     "modelo": "03-132",
@@ -539,7 +565,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "03-132.jpg"
+    "foto": "03-132.jpg",
+    "color": "#6c543c"
   },
   {
     "modelo": "03-138",
@@ -558,7 +585,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": "03-138.jpg"
+    "foto": "03-138.jpg",
+    "color": "#b4b4b4"
   },
   {
     "modelo": "03-144",
@@ -577,7 +605,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": "03-144.jpg"
+    "foto": "03-144.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "03-161",
@@ -596,7 +625,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "03-161.jpg"
+    "foto": "03-161.jpg",
+    "color": "#3c3c24"
   },
   {
     "modelo": "03-164",
@@ -616,7 +646,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": "03-164.jpg"
+    "foto": "03-164.jpg",
+    "color": "#0c0c24"
   },
   {
     "modelo": "03-167",
@@ -636,7 +667,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": "03-167.jpg"
+    "foto": "03-167.jpg",
+    "color": "#24243c"
   },
   {
     "modelo": "03-170",
@@ -655,7 +687,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": "03-170.jpg"
+    "foto": "03-170.jpg",
+    "color": "#0c543c"
   },
   {
     "modelo": "03-173",
@@ -674,7 +707,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "03-173.jpg"
+    "foto": "03-173.jpg",
+    "color": "#545454"
   },
   {
     "modelo": "03-186",
@@ -693,7 +727,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": "03-186.jpg"
+    "foto": "03-186.jpg",
+    "color": "#9c2454"
   },
   {
     "modelo": "03-188",
@@ -715,7 +750,8 @@
     },
     "total": 5,
     "peso_kg": 0.521,
-    "foto": "03-188.jpg"
+    "foto": "03-188.jpg",
+    "color": "#6c8484"
   },
   {
     "modelo": "03-190",
@@ -735,7 +771,8 @@
     },
     "total": 3,
     "peso_kg": 0.521,
-    "foto": "03-190.jpg"
+    "foto": "03-190.jpg",
+    "color": "#6c5424"
   },
   {
     "modelo": "03-192",
@@ -755,7 +792,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": "03-192.jpg"
+    "foto": "03-192.jpg",
+    "color": "#3c2424"
   },
   {
     "modelo": "03-194",
@@ -774,7 +812,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": "03-194.jpg"
+    "foto": "03-194.jpg",
+    "color": "#cc5454"
   },
   {
     "modelo": "03-195",
@@ -793,7 +832,8 @@
     },
     "total": 1,
     "peso_kg": 0.294,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "03-207",
@@ -812,7 +852,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": "03-207.jpg"
+    "foto": "03-207.jpg",
+    "color": "#24546c"
   },
   {
     "modelo": "03-211",
@@ -831,7 +872,8 @@
     },
     "total": 1,
     "peso_kg": 0.25,
-    "foto": "03-211.jpg"
+    "foto": "03-211.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-00F",
@@ -850,7 +892,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-00F.jpg"
+    "foto": "04-00F.jpg",
+    "color": "#846c84"
   },
   {
     "modelo": "04-01B",
@@ -869,7 +912,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-01B.jpg"
+    "foto": "04-01B.jpg",
+    "color": "#3c5484"
   },
   {
     "modelo": "04-024",
@@ -888,7 +932,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-042",
@@ -907,7 +952,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-042.jpg"
+    "foto": "04-042.jpg",
+    "color": "#54543c"
   },
   {
     "modelo": "04-054",
@@ -926,7 +972,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-05Z",
@@ -945,7 +992,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-05Z.jpg"
+    "foto": "04-05Z.jpg",
+    "color": "#6c6c6c"
   },
   {
     "modelo": "04-09Z",
@@ -973,7 +1021,8 @@
     },
     "total": 19,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-0BP",
@@ -993,7 +1042,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-0BP.jpg"
+    "foto": "04-0BP.jpg",
+    "color": "#e42424"
   },
   {
     "modelo": "04-0CE",
@@ -1012,7 +1062,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-0CE.jpg"
+    "foto": "04-0CE.jpg",
+    "color": "#b40c3c"
   },
   {
     "modelo": "04-0D4",
@@ -1031,7 +1082,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-0D5",
@@ -1050,7 +1102,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-0DS",
@@ -1069,7 +1122,8 @@
     },
     "total": 3,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-0Y0",
@@ -1092,7 +1146,8 @@
     },
     "total": 4,
     "peso_kg": 0.564,
-    "foto": "04-0Y0.jpg"
+    "foto": "04-0Y0.jpg",
+    "color": "#3c6ccc"
   },
   {
     "modelo": "04-0YA",
@@ -1111,7 +1166,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-0YM",
@@ -1133,7 +1189,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-0YM.jpg"
+    "foto": "04-0YM.jpg",
+    "color": "#9c849c"
   },
   {
     "modelo": "04-0YN",
@@ -1152,7 +1209,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-0YN.jpg"
+    "foto": "04-0YN.jpg",
+    "color": "#9c849c"
   },
   {
     "modelo": "04-121",
@@ -1172,7 +1230,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-121.jpg"
+    "foto": "04-121.jpg",
+    "color": "#9c849c"
   },
   {
     "modelo": "04-138",
@@ -1191,7 +1250,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-138.jpg"
+    "foto": "04-138.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-178",
@@ -1210,7 +1270,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": "04-178.jpg"
+    "foto": "04-178.jpg",
+    "color": "#846c54"
   },
   {
     "modelo": "04-180",
@@ -1229,7 +1290,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-189",
@@ -1248,7 +1310,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-189.jpg"
+    "foto": "04-189.jpg",
+    "color": "#846c84"
   },
   {
     "modelo": "04-196",
@@ -1267,7 +1330,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-196.jpg"
+    "foto": "04-196.jpg",
+    "color": "#9c6c54"
   },
   {
     "modelo": "04-214",
@@ -1286,7 +1350,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-214.jpg"
+    "foto": "04-214.jpg",
+    "color": "#846c84"
   },
   {
     "modelo": "04-218",
@@ -1305,7 +1370,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-218.jpg"
+    "foto": "04-218.jpg",
+    "color": "#6c5454"
   },
   {
     "modelo": "04-247",
@@ -1324,7 +1390,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-273",
@@ -1343,7 +1410,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-273.jpg"
+    "foto": "04-273.jpg",
+    "color": "#b4b49c"
   },
   {
     "modelo": "04-274",
@@ -1365,7 +1433,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-285",
@@ -1384,7 +1453,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-285.jpg"
+    "foto": "04-285.jpg",
+    "color": "#ccb49c"
   },
   {
     "modelo": "04-298",
@@ -1403,7 +1473,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-298.jpg"
+    "foto": "04-298.jpg",
+    "color": "#ccb4b4"
   },
   {
     "modelo": "04-299",
@@ -1422,7 +1493,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": "04-299.jpg"
+    "foto": "04-299.jpg",
+    "color": "#b49c9c"
   },
   {
     "modelo": "04-314",
@@ -1441,7 +1513,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-349",
@@ -1460,7 +1533,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-349.jpg"
+    "foto": "04-349.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-377",
@@ -1479,7 +1553,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-377.jpg"
+    "foto": "04-377.jpg",
+    "color": "#3c3c54"
   },
   {
     "modelo": "04-389",
@@ -1498,7 +1573,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-389.jpg"
+    "foto": "04-389.jpg",
+    "color": "#6c6c54"
   },
   {
     "modelo": "04-448",
@@ -1517,7 +1593,8 @@
     },
     "total": 1,
     "peso_kg": 0.196,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-525",
@@ -1536,7 +1613,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-674",
@@ -1555,7 +1633,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-697",
@@ -1574,7 +1653,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": "04-697.jpg"
+    "foto": "04-697.jpg",
+    "color": "#b49c84"
   },
   {
     "modelo": "04-711",
@@ -1593,7 +1673,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-761",
@@ -1612,7 +1693,8 @@
     },
     "total": 1,
     "peso_kg": 0.384,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-765",
@@ -1631,7 +1713,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-765.jpg"
+    "foto": "04-765.jpg",
+    "color": "#0c0c24"
   },
   {
     "modelo": "04-952",
@@ -1650,7 +1733,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-952.jpg"
+    "foto": "04-952.jpg",
+    "color": "#b4243c"
   },
   {
     "modelo": "04-A13",
@@ -1669,7 +1753,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-A13.jpg"
+    "foto": "04-A13.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-A24",
@@ -1691,7 +1776,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": "04-A24.jpg"
+    "foto": "04-A24.jpg",
+    "color": "#b4243c"
   },
   {
     "modelo": "04-A39",
@@ -1710,7 +1796,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-A39.jpg"
+    "foto": "04-A39.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-A41",
@@ -1737,7 +1824,8 @@
     },
     "total": 7,
     "peso_kg": 0.35,
-    "foto": "04-A41.jpg"
+    "foto": "04-A41.jpg",
+    "color": "#245454"
   },
   {
     "modelo": "04-A42",
@@ -1756,7 +1844,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-A42.jpg"
+    "foto": "04-A42.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-A64",
@@ -1775,7 +1864,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-A65",
@@ -1794,7 +1884,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-A65.jpg"
+    "foto": "04-A65.jpg",
+    "color": "#246c9c"
   },
   {
     "modelo": "04-A67",
@@ -1813,7 +1904,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-A67.jpg"
+    "foto": "04-A67.jpg",
+    "color": "#243c54"
   },
   {
     "modelo": "04-A70",
@@ -1838,7 +1930,8 @@
     },
     "total": 3,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-A74",
@@ -1857,7 +1950,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-A74.jpg"
+    "foto": "04-A74.jpg",
+    "color": "#9c9c84"
   },
   {
     "modelo": "04-A75",
@@ -1876,7 +1970,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-A75.jpg"
+    "foto": "04-A75.jpg",
+    "color": "#b4b4b4"
   },
   {
     "modelo": "04-A89",
@@ -1895,7 +1990,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-A89.jpg"
+    "foto": "04-A89.jpg",
+    "color": "#242424"
   },
   {
     "modelo": "04-B04",
@@ -1914,7 +2010,8 @@
     },
     "total": 1,
     "peso_kg": 0.542,
-    "foto": "04-B04.jpg"
+    "foto": "04-B04.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-B06",
@@ -1933,7 +2030,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-B08",
@@ -1952,7 +2050,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-B08.jpg"
+    "foto": "04-B08.jpg",
+    "color": "#3c3c3c"
   },
   {
     "modelo": "04-B09",
@@ -1971,7 +2070,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-B11",
@@ -1990,7 +2090,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": "04-B11.jpg"
+    "foto": "04-B11.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-B17",
@@ -2012,7 +2113,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-B17.jpg"
+    "foto": "04-B17.jpg",
+    "color": "#e42424"
   },
   {
     "modelo": "04-B24",
@@ -2031,7 +2133,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-B24.jpg"
+    "foto": "04-B24.jpg",
+    "color": "#0c2424"
   },
   {
     "modelo": "04-B36",
@@ -2050,7 +2153,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-B36.jpg"
+    "foto": "04-B36.jpg",
+    "color": "#849cb4"
   },
   {
     "modelo": "04-B40",
@@ -2071,7 +2175,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-B40.jpg"
+    "foto": "04-B40.jpg",
+    "color": "#849c9c"
   },
   {
     "modelo": "04-B41",
@@ -2095,7 +2200,8 @@
     },
     "total": 3,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-B68",
@@ -2114,7 +2220,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-B68.jpg"
+    "foto": "04-B68.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-B71",
@@ -2133,7 +2240,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-B74",
@@ -2152,7 +2260,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-B74.jpg"
+    "foto": "04-B74.jpg",
+    "color": "#b4cccc"
   },
   {
     "modelo": "04-B80",
@@ -2174,7 +2283,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-C00",
@@ -2193,7 +2303,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-C15",
@@ -2212,7 +2323,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-C15.jpg"
+    "foto": "04-C15.jpg",
+    "color": "#843c3c"
   },
   {
     "modelo": "04-C20",
@@ -2231,7 +2343,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-C20.jpg"
+    "foto": "04-C20.jpg",
+    "color": "#545454"
   },
   {
     "modelo": "04-C23",
@@ -2250,7 +2363,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-C23.jpg"
+    "foto": "04-C23.jpg",
+    "color": "#6c6c6c"
   },
   {
     "modelo": "04-C24",
@@ -2269,7 +2383,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-C24.jpg"
+    "foto": "04-C24.jpg",
+    "color": "#545454"
   },
   {
     "modelo": "04-C43",
@@ -2288,7 +2403,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-C43.jpg"
+    "foto": "04-C43.jpg",
+    "color": "#6c6c6c"
   },
   {
     "modelo": "04-C47",
@@ -2307,7 +2423,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": "04-C47.jpg"
+    "foto": "04-C47.jpg",
+    "color": "#545454"
   },
   {
     "modelo": "04-C52",
@@ -2326,7 +2443,8 @@
     },
     "total": 1,
     "peso_kg": 0.209,
-    "foto": "04-C52.jpg"
+    "foto": "04-C52.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-C54",
@@ -2346,7 +2464,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-C59",
@@ -2365,7 +2484,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-C59.jpg"
+    "foto": "04-C59.jpg",
+    "color": "#6c6c6c"
   },
   {
     "modelo": "04-C72",
@@ -2384,7 +2504,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-C78",
@@ -2403,7 +2524,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": "04-C78.jpg"
+    "foto": "04-C78.jpg",
+    "color": "#242424"
   },
   {
     "modelo": "04-C80",
@@ -2424,7 +2546,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-C80.jpg"
+    "foto": "04-C80.jpg",
+    "color": "#3c3c3c"
   },
   {
     "modelo": "04-C81",
@@ -2443,7 +2566,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": "04-C81.jpg"
+    "foto": "04-C81.jpg",
+    "color": "#6c6c6c"
   },
   {
     "modelo": "04-C86",
@@ -2463,7 +2587,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-C99",
@@ -2482,7 +2607,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-C99.jpg"
+    "foto": "04-C99.jpg",
+    "color": "#0c0c24"
   },
   {
     "modelo": "04-D01",
@@ -2503,7 +2629,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": "04-D01.jpg"
+    "foto": "04-D01.jpg",
+    "color": "#0c0c24"
   },
   {
     "modelo": "04-D07",
@@ -2522,7 +2649,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-D07.jpg"
+    "foto": "04-D07.jpg",
+    "color": "#24243c"
   },
   {
     "modelo": "04-D08",
@@ -2541,7 +2669,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-D08.jpg"
+    "foto": "04-D08.jpg",
+    "color": "#54849c"
   },
   {
     "modelo": "04-D20",
@@ -2560,7 +2689,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-D24",
@@ -2579,7 +2709,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-D24.jpg"
+    "foto": "04-D24.jpg",
+    "color": "#6c849c"
   },
   {
     "modelo": "04-D26",
@@ -2602,7 +2733,8 @@
     },
     "total": 4,
     "peso_kg": 0.35,
-    "foto": "04-D26.jpg"
+    "foto": "04-D26.jpg",
+    "color": "#0c0c24"
   },
   {
     "modelo": "04-D31",
@@ -2627,7 +2759,8 @@
     },
     "total": 8,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-D33",
@@ -2646,7 +2779,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-D43",
@@ -2665,7 +2799,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-D44",
@@ -2684,7 +2819,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-D44.jpg"
+    "foto": "04-D44.jpg",
+    "color": "#242424"
   },
   {
     "modelo": "04-D46",
@@ -2706,7 +2842,8 @@
     },
     "total": 4,
     "peso_kg": 0.35,
-    "foto": "04-D46.jpg"
+    "foto": "04-D46.jpg",
+    "color": "#3c3c3c"
   },
   {
     "modelo": "04-D55",
@@ -2726,7 +2863,8 @@
     },
     "total": 2,
     "peso_kg": 0.374,
-    "foto": "04-D55.jpg"
+    "foto": "04-D55.jpg",
+    "color": "#3c5454"
   },
   {
     "modelo": "04-D60",
@@ -2749,7 +2887,8 @@
     },
     "total": 4,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-D61",
@@ -2768,7 +2907,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-D70",
@@ -2787,7 +2927,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-D70.jpg"
+    "foto": "04-D70.jpg",
+    "color": "#243c54"
   },
   {
     "modelo": "04-D71",
@@ -2806,7 +2947,8 @@
     },
     "total": 1,
     "peso_kg": 0.358,
-    "foto": "04-D71.jpg"
+    "foto": "04-D71.jpg",
+    "color": "#3c549c"
   },
   {
     "modelo": "04-D74",
@@ -2825,7 +2967,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-D80",
@@ -2844,7 +2987,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-D80.jpg"
+    "foto": "04-D80.jpg",
+    "color": "#3c546c"
   },
   {
     "modelo": "04-D86",
@@ -2863,7 +3007,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-D86.jpg"
+    "foto": "04-D86.jpg",
+    "color": "#b4cccc"
   },
   {
     "modelo": "04-D89",
@@ -2882,7 +3027,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-D89.jpg"
+    "foto": "04-D89.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-D90",
@@ -2901,7 +3047,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-D90.jpg"
+    "foto": "04-D90.jpg",
+    "color": "#6c6c54"
   },
   {
     "modelo": "04-D97",
@@ -2923,7 +3070,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-D98",
@@ -2944,7 +3092,8 @@
     },
     "total": 7,
     "peso_kg": 0.3,
-    "foto": "04-D98.jpg"
+    "foto": "04-D98.jpg",
+    "color": "#b4b4b4"
   },
   {
     "modelo": "04-E16",
@@ -2970,7 +3119,8 @@
     },
     "total": 18,
     "peso_kg": 0.723,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-E17",
@@ -2989,7 +3139,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-E17.jpg"
+    "foto": "04-E17.jpg",
+    "color": "#6c6c6c"
   },
   {
     "modelo": "04-E19",
@@ -3010,7 +3161,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-E19.jpg"
+    "foto": "04-E19.jpg",
+    "color": "#84849c"
   },
   {
     "modelo": "04-E21",
@@ -3029,7 +3181,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-E22",
@@ -3049,7 +3202,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-E22.jpg"
+    "foto": "04-E22.jpg",
+    "color": "#849cb4"
   },
   {
     "modelo": "04-E27",
@@ -3068,7 +3222,8 @@
     },
     "total": 1,
     "peso_kg": 0.316,
-    "foto": "04-E27.jpg"
+    "foto": "04-E27.jpg",
+    "color": "#840c0c"
   },
   {
     "modelo": "04-E28",
@@ -3088,7 +3243,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": "04-E28.jpg"
+    "foto": "04-E28.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-E29",
@@ -3107,7 +3263,8 @@
     },
     "total": 1,
     "peso_kg": 0.346,
-    "foto": "04-E29.jpg"
+    "foto": "04-E29.jpg",
+    "color": "#546c54"
   },
   {
     "modelo": "04-E33",
@@ -3126,7 +3283,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-E33.jpg"
+    "foto": "04-E33.jpg",
+    "color": "#3c84cc"
   },
   {
     "modelo": "04-E35",
@@ -3147,7 +3305,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-E37",
@@ -3166,7 +3325,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-E37.jpg"
+    "foto": "04-E37.jpg",
+    "color": "#242424"
   },
   {
     "modelo": "04-E38",
@@ -3185,7 +3345,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-E38.jpg"
+    "foto": "04-E38.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-E41",
@@ -3204,7 +3365,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-E41.jpg"
+    "foto": "04-E41.jpg",
+    "color": "#545454"
   },
   {
     "modelo": "04-E46",
@@ -3224,7 +3386,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-E46.jpg"
+    "foto": "04-E46.jpg",
+    "color": "#3c3c3c"
   },
   {
     "modelo": "04-E47",
@@ -3244,7 +3407,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": "04-E47.jpg"
+    "foto": "04-E47.jpg",
+    "color": "#0c3c6c"
   },
   {
     "modelo": "04-E53",
@@ -3263,7 +3427,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-E53.jpg"
+    "foto": "04-E53.jpg",
+    "color": "#543c24"
   },
   {
     "modelo": "04-E58",
@@ -3282,7 +3447,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-E58.jpg"
+    "foto": "04-E58.jpg",
+    "color": "#3c3c24"
   },
   {
     "modelo": "04-E61",
@@ -3304,7 +3470,8 @@
     },
     "total": 8,
     "peso_kg": 0.418,
-    "foto": "04-E61.jpg"
+    "foto": "04-E61.jpg",
+    "color": "#243c3c"
   },
   {
     "modelo": "04-E64",
@@ -3323,7 +3490,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-E64.jpg"
+    "foto": "04-E64.jpg",
+    "color": "#242424"
   },
   {
     "modelo": "04-E65",
@@ -3342,7 +3510,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-E65.jpg"
+    "foto": "04-E65.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-E67",
@@ -3364,7 +3533,8 @@
     },
     "total": 5,
     "peso_kg": 0.35,
-    "foto": "04-E67.jpg"
+    "foto": "04-E67.jpg",
+    "color": "#84849c"
   },
   {
     "modelo": "04-E68",
@@ -3383,7 +3553,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-E68.jpg"
+    "foto": "04-E68.jpg",
+    "color": "#849c9c"
   },
   {
     "modelo": "04-E69",
@@ -3402,7 +3573,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-E69.jpg"
+    "foto": "04-E69.jpg",
+    "color": "#3c3c3c"
   },
   {
     "modelo": "04-E73",
@@ -3421,7 +3593,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-E79",
@@ -3440,7 +3613,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-E79.jpg"
+    "foto": "04-E79.jpg",
+    "color": "#242424"
   },
   {
     "modelo": "04-E96",
@@ -3459,7 +3633,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-E96.jpg"
+    "foto": "04-E96.jpg",
+    "color": "#543c3c"
   },
   {
     "modelo": "04-F02",
@@ -3480,7 +3655,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F05",
@@ -3502,7 +3678,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-F05.jpg"
+    "foto": "04-F05.jpg",
+    "color": "#0c243c"
   },
   {
     "modelo": "04-F06",
@@ -3521,7 +3698,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F10",
@@ -3540,7 +3718,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-F10.jpg"
+    "foto": "04-F10.jpg",
+    "color": "#243c54"
   },
   {
     "modelo": "04-F11",
@@ -3559,7 +3738,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F12",
@@ -3578,7 +3758,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-F12.jpg"
+    "foto": "04-F12.jpg",
+    "color": "#24546c"
   },
   {
     "modelo": "04-F14",
@@ -3597,7 +3778,8 @@
     },
     "total": 1,
     "peso_kg": 0.113,
-    "foto": "04-F14.jpg"
+    "foto": "04-F14.jpg",
+    "color": "#3c5454"
   },
   {
     "modelo": "04-F16",
@@ -3616,7 +3798,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-F16.jpg"
+    "foto": "04-F16.jpg",
+    "color": "#9cb4b4"
   },
   {
     "modelo": "04-F18",
@@ -3637,7 +3820,8 @@
     },
     "total": 5,
     "peso_kg": 0.45,
-    "foto": "04-F18.jpg"
+    "foto": "04-F18.jpg",
+    "color": "#3c849c"
   },
   {
     "modelo": "04-F19",
@@ -3658,7 +3842,8 @@
     },
     "total": 2,
     "peso_kg": 0.375,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F20",
@@ -3677,7 +3862,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-F20.jpg"
+    "foto": "04-F20.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-F23",
@@ -3697,7 +3883,8 @@
     },
     "total": 2,
     "peso_kg": 0.339,
-    "foto": "04-F23.jpg"
+    "foto": "04-F23.jpg",
+    "color": "#546c84"
   },
   {
     "modelo": "04-F24",
@@ -3716,7 +3903,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F26",
@@ -3735,7 +3923,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F28",
@@ -3754,7 +3943,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-F28.jpg"
+    "foto": "04-F28.jpg",
+    "color": "#849c9c"
   },
   {
     "modelo": "04-F29",
@@ -3774,7 +3964,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F31",
@@ -3799,7 +3990,8 @@
     },
     "total": 7,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F32",
@@ -3820,7 +4012,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F35",
@@ -3839,7 +4032,8 @@
     },
     "total": 1,
     "peso_kg": 0.572,
-    "foto": "04-F35.jpg"
+    "foto": "04-F35.jpg",
+    "color": "#3c3c9c"
   },
   {
     "modelo": "04-F38",
@@ -3858,7 +4052,8 @@
     },
     "total": 1,
     "peso_kg": 0.291,
-    "foto": "04-F38.jpg"
+    "foto": "04-F38.jpg",
+    "color": "#3c3c3c"
   },
   {
     "modelo": "04-F39",
@@ -3877,7 +4072,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F43",
@@ -3896,7 +4092,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-F43.jpg"
+    "foto": "04-F43.jpg",
+    "color": "#b48484"
   },
   {
     "modelo": "04-F45",
@@ -3915,7 +4112,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-F45.jpg"
+    "foto": "04-F45.jpg",
+    "color": "#6c8484"
   },
   {
     "modelo": "04-F49",
@@ -3945,7 +4143,8 @@
     },
     "total": 11,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F51",
@@ -3966,7 +4165,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": "04-F51.jpg"
+    "foto": "04-F51.jpg",
+    "color": "#3c546c"
   },
   {
     "modelo": "04-F52",
@@ -3985,7 +4185,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F53",
@@ -4004,7 +4205,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F54",
@@ -4023,7 +4225,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F55",
@@ -4042,7 +4245,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F56",
@@ -4066,7 +4270,8 @@
     },
     "total": 8,
     "peso_kg": 0.35,
-    "foto": "04-F56.jpg"
+    "foto": "04-F56.jpg",
+    "color": "#546c6c"
   },
   {
     "modelo": "04-F57",
@@ -4085,7 +4290,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-F57.jpg"
+    "foto": "04-F57.jpg",
+    "color": "#849c9c"
   },
   {
     "modelo": "04-F58",
@@ -4110,7 +4316,8 @@
     },
     "total": 4,
     "peso_kg": 0.329,
-    "foto": "04-F58.jpg"
+    "foto": "04-F58.jpg",
+    "color": "#3c546c"
   },
   {
     "modelo": "04-F60",
@@ -4129,7 +4336,8 @@
     },
     "total": 1,
     "peso_kg": 0.497,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F62",
@@ -4148,7 +4356,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-F62.jpg"
+    "foto": "04-F62.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-F63",
@@ -4167,7 +4376,8 @@
     },
     "total": 1,
     "peso_kg": 0.715,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F65",
@@ -4187,7 +4397,8 @@
     },
     "total": 2,
     "peso_kg": 0.41,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F75",
@@ -4206,7 +4417,8 @@
     },
     "total": 1,
     "peso_kg": 0.13,
-    "foto": "04-F75.jpg"
+    "foto": "04-F75.jpg",
+    "color": "#546c84"
   },
   {
     "modelo": "04-F77",
@@ -4225,7 +4437,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F78",
@@ -4244,7 +4457,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F79",
@@ -4263,7 +4477,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F84",
@@ -4282,7 +4497,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-F87",
@@ -4301,7 +4517,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-F87.jpg"
+    "foto": "04-F87.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-F95",
@@ -4320,7 +4537,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-F95.jpg"
+    "foto": "04-F95.jpg",
+    "color": "#546c84"
   },
   {
     "modelo": "04-G02",
@@ -4341,7 +4559,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G03",
@@ -4362,7 +4581,8 @@
     },
     "total": 3,
     "peso_kg": 0.273,
-    "foto": "04-G03.jpg"
+    "foto": "04-G03.jpg",
+    "color": "#3c3c3c"
   },
   {
     "modelo": "04-G06",
@@ -4381,7 +4601,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-G06.jpg"
+    "foto": "04-G06.jpg",
+    "color": "#84246c"
   },
   {
     "modelo": "04-G07",
@@ -4400,7 +4621,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-G07.jpg"
+    "foto": "04-G07.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-G08",
@@ -4419,7 +4641,8 @@
     },
     "total": 1,
     "peso_kg": 0.25,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G13",
@@ -4438,7 +4661,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-G13.jpg"
+    "foto": "04-G13.jpg",
+    "color": "#9cb4b4"
   },
   {
     "modelo": "04-G18",
@@ -4463,7 +4687,8 @@
     },
     "total": 5,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G19",
@@ -4485,7 +4710,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G21",
@@ -4504,7 +4730,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G22",
@@ -4523,7 +4750,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G25",
@@ -4543,7 +4771,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G30",
@@ -4562,7 +4791,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G32",
@@ -4584,7 +4814,8 @@
     },
     "total": 7,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G33",
@@ -4604,7 +4835,8 @@
     },
     "total": 2,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G35",
@@ -4623,7 +4855,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G37",
@@ -4644,7 +4877,8 @@
     },
     "total": 3,
     "peso_kg": 0.328,
-    "foto": "04-G37.jpg"
+    "foto": "04-G37.jpg",
+    "color": "#3c3c54"
   },
   {
     "modelo": "04-G40",
@@ -4663,7 +4897,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-G40.jpg"
+    "foto": "04-G40.jpg",
+    "color": "#843c54"
   },
   {
     "modelo": "04-G41",
@@ -4685,7 +4920,8 @@
     },
     "total": 4,
     "peso_kg": 0.35,
-    "foto": "04-G41.jpg"
+    "foto": "04-G41.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-G42",
@@ -4704,7 +4940,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-G42.jpg"
+    "foto": "04-G42.jpg",
+    "color": "#849cb4"
   },
   {
     "modelo": "04-G46",
@@ -4723,7 +4960,8 @@
     },
     "total": 1,
     "peso_kg": 0.25,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G47",
@@ -4743,7 +4981,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G48",
@@ -4763,7 +5002,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G54",
@@ -4782,7 +5022,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-G54.jpg"
+    "foto": "04-G54.jpg",
+    "color": "#846c3c"
   },
   {
     "modelo": "04-G55",
@@ -4804,7 +5045,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G57",
@@ -4823,7 +5065,8 @@
     },
     "total": 1,
     "peso_kg": 0.683,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G58",
@@ -4842,7 +5085,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G60",
@@ -4861,7 +5105,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-G60.jpg"
+    "foto": "04-G60.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-G61",
@@ -4880,7 +5125,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-G61.jpg"
+    "foto": "04-G61.jpg",
+    "color": "#845454"
   },
   {
     "modelo": "04-G62",
@@ -4899,7 +5145,8 @@
     },
     "total": 1,
     "peso_kg": 0.456,
-    "foto": "04-G62.jpg"
+    "foto": "04-G62.jpg",
+    "color": "#0c2454"
   },
   {
     "modelo": "04-G63",
@@ -4918,7 +5165,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G68",
@@ -4937,7 +5185,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-G68.jpg"
+    "foto": "04-G68.jpg",
+    "color": "#543c54"
   },
   {
     "modelo": "04-G73",
@@ -4956,7 +5205,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G76",
@@ -4978,7 +5228,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G77",
@@ -4997,7 +5248,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G78",
@@ -5016,7 +5268,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G79",
@@ -5036,7 +5289,8 @@
     },
     "total": 3,
     "peso_kg": 0.64,
-    "foto": "04-G79.jpg"
+    "foto": "04-G79.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-G80",
@@ -5062,7 +5316,8 @@
     },
     "total": 8,
     "peso_kg": 0.216,
-    "foto": "04-G80.jpg"
+    "foto": "04-G80.jpg",
+    "color": "#545454"
   },
   {
     "modelo": "04-G81",
@@ -5081,7 +5336,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G82",
@@ -5100,7 +5356,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G83",
@@ -5119,7 +5376,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-G83.jpg"
+    "foto": "04-G83.jpg",
+    "color": "#546c6c"
   },
   {
     "modelo": "04-G84",
@@ -5138,7 +5396,8 @@
     },
     "total": 4,
     "peso_kg": 0.35,
-    "foto": "04-G84.jpg"
+    "foto": "04-G84.jpg",
+    "color": "#246c9c"
   },
   {
     "modelo": "04-G85",
@@ -5157,7 +5416,8 @@
     },
     "total": 2,
     "peso_kg": 0.132,
-    "foto": "04-G85.jpg"
+    "foto": "04-G85.jpg",
+    "color": "#0c243c"
   },
   {
     "modelo": "04-G87",
@@ -5176,7 +5436,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-G87.jpg"
+    "foto": "04-G87.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-G91",
@@ -5195,7 +5456,8 @@
     },
     "total": 2,
     "peso_kg": 0.717,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G92",
@@ -5214,7 +5476,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-G92.jpg"
+    "foto": "04-G92.jpg",
+    "color": "#3c5484"
   },
   {
     "modelo": "04-G94",
@@ -5233,7 +5496,8 @@
     },
     "total": 2,
     "peso_kg": 0.162,
-    "foto": "04-G94.jpg"
+    "foto": "04-G94.jpg",
+    "color": "#546c84"
   },
   {
     "modelo": "04-G95",
@@ -5252,7 +5516,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-G95.jpg"
+    "foto": "04-G95.jpg",
+    "color": "#546c84"
   },
   {
     "modelo": "04-G96",
@@ -5271,7 +5536,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": "04-G96.jpg"
+    "foto": "04-G96.jpg",
+    "color": "#6c543c"
   },
   {
     "modelo": "04-G97",
@@ -5290,7 +5556,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-G98",
@@ -5309,7 +5576,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": "04-G98.jpg"
+    "foto": "04-G98.jpg",
+    "color": "#849cb4"
   },
   {
     "modelo": "04-H01",
@@ -5328,7 +5596,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H02",
@@ -5347,7 +5616,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": "04-H02.jpg"
+    "foto": "04-H02.jpg",
+    "color": "#546c84"
   },
   {
     "modelo": "04-H03",
@@ -5367,7 +5637,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H06",
@@ -5386,7 +5657,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H07",
@@ -5405,7 +5677,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H08",
@@ -5424,7 +5697,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H09",
@@ -5443,7 +5717,8 @@
     },
     "total": 4,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H10",
@@ -5462,7 +5737,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-H10.jpg"
+    "foto": "04-H10.jpg",
+    "color": "#546c6c"
   },
   {
     "modelo": "04-H11",
@@ -5481,7 +5757,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": "04-H11.jpg"
+    "foto": "04-H11.jpg",
+    "color": "#243c54"
   },
   {
     "modelo": "04-H12",
@@ -5501,7 +5778,8 @@
     },
     "total": 2,
     "peso_kg": 0.277,
-    "foto": "04-H12.jpg"
+    "foto": "04-H12.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-H13",
@@ -5520,7 +5798,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-H13.jpg"
+    "foto": "04-H13.jpg",
+    "color": "#84243c"
   },
   {
     "modelo": "04-H15",
@@ -5539,7 +5818,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H16",
@@ -5568,7 +5848,8 @@
     },
     "total": 29,
     "peso_kg": 0.136,
-    "foto": "04-H16.jpg"
+    "foto": "04-H16.jpg",
+    "color": "#3c849c"
   },
   {
     "modelo": "04-H17",
@@ -5587,7 +5868,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-H17.jpg"
+    "foto": "04-H17.jpg",
+    "color": "#3c849c"
   },
   {
     "modelo": "04-H19",
@@ -5606,7 +5888,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-H19.jpg"
+    "foto": "04-H19.jpg",
+    "color": "#b46c84"
   },
   {
     "modelo": "04-H21",
@@ -5625,7 +5908,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-H21.jpg"
+    "foto": "04-H21.jpg",
+    "color": "#846c54"
   },
   {
     "modelo": "04-H22",
@@ -5644,7 +5928,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-H22.jpg"
+    "foto": "04-H22.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "04-H25",
@@ -5663,7 +5948,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H27",
@@ -5682,7 +5968,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H28",
@@ -5701,7 +5988,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H29",
@@ -5724,7 +6012,8 @@
     },
     "total": 4,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H30",
@@ -5743,7 +6032,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H31",
@@ -5762,7 +6052,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-H31.jpg"
+    "foto": "04-H31.jpg",
+    "color": "#6c8484"
   },
   {
     "modelo": "04-H34",
@@ -5781,7 +6072,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H35",
@@ -5800,7 +6092,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H36",
@@ -5823,7 +6116,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H37",
@@ -5845,7 +6139,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H39",
@@ -5864,7 +6159,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H41",
@@ -5893,7 +6189,8 @@
     },
     "total": 20,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H42",
@@ -5918,7 +6215,8 @@
     },
     "total": 11,
     "peso_kg": 0.35,
-    "foto": "04-H42.jpg"
+    "foto": "04-H42.jpg",
+    "color": "#b4b4b4"
   },
   {
     "modelo": "04-H43",
@@ -5937,7 +6235,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H44",
@@ -5957,7 +6256,8 @@
     },
     "total": 2,
     "peso_kg": 0.167,
-    "foto": "04-H44.jpg"
+    "foto": "04-H44.jpg",
+    "color": "#9c9c84"
   },
   {
     "modelo": "04-H45",
@@ -5976,7 +6276,8 @@
     },
     "total": 1,
     "peso_kg": 0.621,
-    "foto": "04-H45.jpg"
+    "foto": "04-H45.jpg",
+    "color": "#54546c"
   },
   {
     "modelo": "04-H47",
@@ -5995,7 +6296,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-H47.jpg"
+    "foto": "04-H47.jpg",
+    "color": "#3c543c"
   },
   {
     "modelo": "04-H49",
@@ -6015,7 +6317,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H50",
@@ -6034,7 +6337,8 @@
     },
     "total": 1,
     "peso_kg": 0.25,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H51",
@@ -6053,7 +6357,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H52",
@@ -6072,7 +6377,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H53",
@@ -6091,7 +6397,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H56",
@@ -6110,7 +6417,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-H56.jpg"
+    "foto": "04-H56.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-H57",
@@ -6129,7 +6437,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-H57.jpg"
+    "foto": "04-H57.jpg",
+    "color": "#543c3c"
   },
   {
     "modelo": "04-H61",
@@ -6148,7 +6457,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "04-H61.jpg"
+    "foto": "04-H61.jpg",
+    "color": "#243c6c"
   },
   {
     "modelo": "04-H63",
@@ -6167,7 +6477,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H64",
@@ -6186,7 +6497,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H65",
@@ -6205,7 +6517,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H66",
@@ -6224,7 +6537,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H69",
@@ -6243,7 +6557,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H71",
@@ -6262,7 +6577,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H75",
@@ -6281,7 +6597,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H76",
@@ -6301,7 +6618,8 @@
     },
     "total": 3,
     "peso_kg": 0.098,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H77",
@@ -6320,7 +6638,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-H77.jpg"
+    "foto": "04-H77.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-H78",
@@ -6339,7 +6658,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H80",
@@ -6358,7 +6678,8 @@
     },
     "total": 1,
     "peso_kg": 0.558,
-    "foto": "04-H80.jpg"
+    "foto": "04-H80.jpg",
+    "color": "#24243c"
   },
   {
     "modelo": "04-H85",
@@ -6377,7 +6698,8 @@
     },
     "total": 1,
     "peso_kg": 0.372,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H88",
@@ -6398,7 +6720,8 @@
     },
     "total": 4,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-H96",
@@ -6418,7 +6741,8 @@
     },
     "total": 3,
     "peso_kg": 0.45,
-    "foto": "04-H96.jpg"
+    "foto": "04-H96.jpg",
+    "color": "#6c6c6c"
   },
   {
     "modelo": "04-H98",
@@ -6437,7 +6761,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I01",
@@ -6456,7 +6781,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I02",
@@ -6475,7 +6801,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-I02.jpg"
+    "foto": "04-I02.jpg",
+    "color": "#6c546c"
   },
   {
     "modelo": "04-I04",
@@ -6494,7 +6821,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I05",
@@ -6513,7 +6841,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I06",
@@ -6532,7 +6861,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-I06.jpg"
+    "foto": "04-I06.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "04-I07",
@@ -6551,7 +6881,8 @@
     },
     "total": 1,
     "peso_kg": 0.139,
-    "foto": "04-I07.jpg"
+    "foto": "04-I07.jpg",
+    "color": "#3c5454"
   },
   {
     "modelo": "04-I08",
@@ -6570,7 +6901,8 @@
     },
     "total": 1,
     "peso_kg": 0.671,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I09",
@@ -6589,7 +6921,8 @@
     },
     "total": 1,
     "peso_kg": 0.262,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I10",
@@ -6608,7 +6941,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I13",
@@ -6627,7 +6961,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I16",
@@ -6646,7 +6981,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I18",
@@ -6666,7 +7002,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I19",
@@ -6685,7 +7022,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I22",
@@ -6704,7 +7042,8 @@
     },
     "total": 1,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I23",
@@ -6723,7 +7062,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I25",
@@ -6742,7 +7082,8 @@
     },
     "total": 2,
     "peso_kg": 0.108,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I29",
@@ -6761,7 +7102,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I31",
@@ -6780,7 +7122,8 @@
     },
     "total": 1,
     "peso_kg": 0.163,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I32",
@@ -6799,7 +7142,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I33",
@@ -6818,7 +7162,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I34",
@@ -6837,7 +7182,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I35",
@@ -6856,7 +7202,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I36",
@@ -6875,7 +7222,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I37",
@@ -6894,7 +7242,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I39",
@@ -6913,7 +7262,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I40",
@@ -6932,7 +7282,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I41",
@@ -6951,7 +7302,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I43",
@@ -6970,7 +7322,8 @@
     },
     "total": 2,
     "peso_kg": 0.25,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I54",
@@ -6990,7 +7343,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I59",
@@ -7011,7 +7365,8 @@
     },
     "total": 2,
     "peso_kg": 0.255,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I60",
@@ -7033,7 +7388,8 @@
     },
     "total": 5,
     "peso_kg": 0.131,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I61",
@@ -7052,7 +7408,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I62",
@@ -7071,7 +7428,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I64",
@@ -7090,7 +7448,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I67",
@@ -7109,7 +7468,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I68",
@@ -7128,7 +7488,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I69",
@@ -7147,7 +7508,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I70",
@@ -7166,7 +7528,8 @@
     },
     "total": 1,
     "peso_kg": 0.464,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I72",
@@ -7185,7 +7548,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I73",
@@ -7205,7 +7569,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I74",
@@ -7224,7 +7589,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I75",
@@ -7243,7 +7609,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I76",
@@ -7263,7 +7630,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I77",
@@ -7282,7 +7650,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I78",
@@ -7303,7 +7672,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I79",
@@ -7322,7 +7692,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I80",
@@ -7344,7 +7715,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I88",
@@ -7363,7 +7735,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I92",
@@ -7382,7 +7755,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I96",
@@ -7401,7 +7775,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-I99",
@@ -7420,7 +7795,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J00",
@@ -7439,7 +7815,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J02",
@@ -7458,7 +7835,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J03",
@@ -7477,7 +7855,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J04",
@@ -7500,7 +7879,8 @@
     },
     "total": 3,
     "peso_kg": 0.162,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J06",
@@ -7519,7 +7899,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J08",
@@ -7538,7 +7919,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J09",
@@ -7558,7 +7940,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J12",
@@ -7577,7 +7960,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J14",
@@ -7596,7 +7980,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J16",
@@ -7616,7 +8001,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J26",
@@ -7635,7 +8021,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J27",
@@ -7654,7 +8041,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J32",
@@ -7673,7 +8061,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J34",
@@ -7692,7 +8081,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J35",
@@ -7712,7 +8102,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": "04-J35.jpg"
+    "foto": "04-J35.jpg",
+    "color": "#b43c3c"
   },
   {
     "modelo": "04-J36",
@@ -7731,7 +8122,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-J36.jpg"
+    "foto": "04-J36.jpg",
+    "color": "#243c54"
   },
   {
     "modelo": "04-J37",
@@ -7751,7 +8143,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "04-J37.jpg"
+    "foto": "04-J37.jpg",
+    "color": "#845454"
   },
   {
     "modelo": "04-J38",
@@ -7770,7 +8163,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J39",
@@ -7791,7 +8185,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J40",
@@ -7810,7 +8205,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J41",
@@ -7833,7 +8229,8 @@
     },
     "total": 4,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J49",
@@ -7852,7 +8249,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J54",
@@ -7871,7 +8269,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J55",
@@ -7890,7 +8289,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J56",
@@ -7909,7 +8309,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J64",
@@ -7928,7 +8329,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J69",
@@ -7948,7 +8350,8 @@
     },
     "total": 4,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J70",
@@ -7968,7 +8371,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J71",
@@ -7987,7 +8391,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J74",
@@ -8007,7 +8412,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J84",
@@ -8026,7 +8432,8 @@
     },
     "total": 7,
     "peso_kg": 0.3,
-    "foto": "04-J84.jpg"
+    "foto": "04-J84.jpg",
+    "color": "#849cb4"
   },
   {
     "modelo": "04-J97",
@@ -8045,7 +8452,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-J99",
@@ -8064,7 +8472,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K06",
@@ -8084,7 +8493,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": "04-K06.jpg"
+    "foto": "04-K06.jpg",
+    "color": "#549c9c"
   },
   {
     "modelo": "04-K08",
@@ -8103,7 +8513,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K09",
@@ -8122,7 +8533,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K10",
@@ -8142,7 +8554,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K11",
@@ -8161,7 +8574,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K23",
@@ -8180,7 +8594,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K24",
@@ -8199,7 +8614,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K25",
@@ -8218,7 +8634,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K30",
@@ -8240,7 +8657,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K37",
@@ -8259,7 +8677,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K39",
@@ -8278,7 +8697,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K41",
@@ -8300,7 +8720,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K48",
@@ -8319,7 +8740,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K57",
@@ -8338,7 +8760,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K63",
@@ -8357,7 +8780,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K66",
@@ -8376,7 +8800,8 @@
     },
     "total": 3,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K67",
@@ -8395,7 +8820,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K77",
@@ -8414,7 +8840,8 @@
     },
     "total": 3,
     "peso_kg": 0.438,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K78",
@@ -8439,7 +8866,8 @@
     },
     "total": 24,
     "peso_kg": 0.45,
-    "foto": "04-K78.jpg"
+    "foto": "04-K78.jpg",
+    "color": "#545454"
   },
   {
     "modelo": "04-K83",
@@ -8458,7 +8886,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K86",
@@ -8477,7 +8906,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K91",
@@ -8496,7 +8926,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K96",
@@ -8515,7 +8946,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K97",
@@ -8534,7 +8966,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K98",
@@ -8553,7 +8986,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-K99",
@@ -8572,7 +9006,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L00",
@@ -8591,7 +9026,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L02",
@@ -8610,7 +9046,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L03",
@@ -8629,7 +9066,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L05",
@@ -8648,7 +9086,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L07",
@@ -8667,7 +9106,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L13",
@@ -8686,7 +9126,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L15",
@@ -8705,7 +9146,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L16",
@@ -8724,7 +9166,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L17",
@@ -8743,7 +9186,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L18",
@@ -8762,7 +9206,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L19",
@@ -8781,7 +9226,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L21",
@@ -8800,7 +9246,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L22",
@@ -8819,7 +9266,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L23",
@@ -8838,7 +9286,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L24",
@@ -8857,7 +9306,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L29",
@@ -8876,7 +9326,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L33",
@@ -8895,7 +9346,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L34",
@@ -8914,7 +9366,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-L36",
@@ -8933,7 +9386,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-V54",
@@ -8952,7 +9406,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-V90",
@@ -8971,7 +9426,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-W13",
@@ -8990,7 +9446,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-Y80",
@@ -9009,7 +9466,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": "04-Y80.jpg"
+    "foto": "04-Y80.jpg",
+    "color": "#546cb4"
   },
   {
     "modelo": "04-Y81",
@@ -9029,7 +9487,8 @@
     },
     "total": 2,
     "peso_kg": 0.211,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "04-Y87",
@@ -9048,7 +9507,8 @@
     },
     "total": 1,
     "peso_kg": 0.285,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-069",
@@ -9075,7 +9535,8 @@
     },
     "total": 8,
     "peso_kg": 0.25,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-121",
@@ -9100,7 +9561,8 @@
     },
     "total": 6,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-156",
@@ -9119,7 +9581,8 @@
     },
     "total": 1,
     "peso_kg": 0.304,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-203",
@@ -9138,7 +9601,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-205",
@@ -9157,7 +9621,8 @@
     },
     "total": 1,
     "peso_kg": 0.25,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-208",
@@ -9176,7 +9641,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-221",
@@ -9195,7 +9661,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-236",
@@ -9214,7 +9681,8 @@
     },
     "total": 1,
     "peso_kg": 0.385,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-237",
@@ -9233,7 +9701,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-242",
@@ -9252,7 +9721,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-243",
@@ -9271,7 +9741,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-251",
@@ -9290,7 +9761,8 @@
     },
     "total": 1,
     "peso_kg": 0.346,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-252",
@@ -9309,7 +9781,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-255",
@@ -9328,7 +9801,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-259",
@@ -9347,7 +9821,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "05-259.jpg"
+    "foto": "05-259.jpg",
+    "color": "#845454"
   },
   {
     "modelo": "05-262",
@@ -9366,7 +9841,8 @@
     },
     "total": 2,
     "peso_kg": 0.25,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-267",
@@ -9389,7 +9865,8 @@
     },
     "total": 3,
     "peso_kg": 0.283,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-271",
@@ -9408,7 +9885,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-272",
@@ -9429,7 +9907,8 @@
     },
     "total": 3,
     "peso_kg": 0.25,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-275",
@@ -9448,7 +9927,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-278",
@@ -9467,7 +9947,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-280",
@@ -9486,7 +9967,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-281",
@@ -9505,7 +9987,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-282",
@@ -9524,7 +10007,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-287",
@@ -9543,7 +10027,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-289",
@@ -9562,7 +10047,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-290",
@@ -9583,7 +10069,8 @@
     },
     "total": 7,
     "peso_kg": 0.35,
-    "foto": "05-290.jpg"
+    "foto": "05-290.jpg",
+    "color": "#3c2424"
   },
   {
     "modelo": "05-291",
@@ -9602,7 +10089,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-294",
@@ -9621,7 +10109,8 @@
     },
     "total": 1,
     "peso_kg": 0.25,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-297",
@@ -9642,7 +10131,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-299",
@@ -9661,7 +10151,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-300",
@@ -9681,7 +10172,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": "05-300.jpg"
+    "foto": "05-300.jpg",
+    "color": "#6c8484"
   },
   {
     "modelo": "05-301",
@@ -9700,7 +10192,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "05-301.jpg"
+    "foto": "05-301.jpg",
+    "color": "#3c240c"
   },
   {
     "modelo": "05-304",
@@ -9719,7 +10212,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-307",
@@ -9738,7 +10232,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-313",
@@ -9757,7 +10252,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-315",
@@ -9776,7 +10272,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-316",
@@ -9795,7 +10292,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-317",
@@ -9814,7 +10312,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-321",
@@ -9833,7 +10332,8 @@
     },
     "total": 2,
     "peso_kg": 0.407,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-322",
@@ -9852,7 +10352,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-G12",
@@ -9871,7 +10372,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-G15",
@@ -9890,7 +10392,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-G20",
@@ -9909,7 +10412,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-G24",
@@ -9928,7 +10432,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-G30",
@@ -9947,7 +10452,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-G41",
@@ -9968,7 +10474,8 @@
     },
     "total": 2,
     "peso_kg": 0.25,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-G47",
@@ -9987,7 +10494,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-G48",
@@ -10006,7 +10514,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "05-G60",
@@ -10025,7 +10534,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-000",
@@ -10044,7 +10554,8 @@
     },
     "total": 1,
     "peso_kg": 0.07,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-001",
@@ -10065,7 +10576,8 @@
     },
     "total": 4,
     "peso_kg": 0.066,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-010",
@@ -10084,7 +10596,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-061",
@@ -10103,7 +10616,8 @@
     },
     "total": 1,
     "peso_kg": 0.055,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-065",
@@ -10122,7 +10636,8 @@
     },
     "total": 2,
     "peso_kg": 0.136,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-073",
@@ -10141,7 +10656,8 @@
     },
     "total": 15,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-081",
@@ -10160,7 +10676,8 @@
     },
     "total": 1,
     "peso_kg": 0.037,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-085",
@@ -10179,7 +10696,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-092",
@@ -10198,7 +10716,8 @@
     },
     "total": 1,
     "peso_kg": 0.073,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-095",
@@ -10217,7 +10736,8 @@
     },
     "total": 1,
     "peso_kg": 0.08,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-116",
@@ -10236,7 +10756,8 @@
     },
     "total": 1,
     "peso_kg": 0.115,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-119",
@@ -10255,7 +10776,8 @@
     },
     "total": 1,
     "peso_kg": 0.139,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-121",
@@ -10274,7 +10796,8 @@
     },
     "total": 2,
     "peso_kg": 0.065,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-122",
@@ -10293,7 +10816,8 @@
     },
     "total": 2,
     "peso_kg": 0.065,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-126",
@@ -10312,7 +10836,8 @@
     },
     "total": 1,
     "peso_kg": 0.073,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-127",
@@ -10331,7 +10856,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-128",
@@ -10350,7 +10876,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-129",
@@ -10369,7 +10896,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-138",
@@ -10388,7 +10916,8 @@
     },
     "total": 2,
     "peso_kg": 0.032,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-140",
@@ -10407,7 +10936,8 @@
     },
     "total": 5,
     "peso_kg": 0.126,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-141",
@@ -10426,7 +10956,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-142",
@@ -10445,7 +10976,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-146",
@@ -10464,7 +10996,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-147",
@@ -10483,7 +11016,8 @@
     },
     "total": 1,
     "peso_kg": 0.084,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-148",
@@ -10502,7 +11036,8 @@
     },
     "total": 1,
     "peso_kg": 0.079,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-149",
@@ -10523,7 +11058,8 @@
     },
     "total": 3,
     "peso_kg": 0.065,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-150",
@@ -10542,7 +11078,8 @@
     },
     "total": 2,
     "peso_kg": 0.075,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-152",
@@ -10561,7 +11098,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-155",
@@ -10580,7 +11118,8 @@
     },
     "total": 1,
     "peso_kg": 0.037,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-157",
@@ -10599,7 +11138,8 @@
     },
     "total": 1,
     "peso_kg": 0.062,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-160",
@@ -10618,7 +11158,8 @@
     },
     "total": 1,
     "peso_kg": 0.034,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-161",
@@ -10637,7 +11178,8 @@
     },
     "total": 2,
     "peso_kg": 0.063,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-162",
@@ -10661,7 +11203,8 @@
     },
     "total": 8,
     "peso_kg": 0.107,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-163",
@@ -10681,7 +11224,8 @@
     },
     "total": 4,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-164",
@@ -10700,7 +11244,8 @@
     },
     "total": 1,
     "peso_kg": 0.089,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-166",
@@ -10719,7 +11264,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-169",
@@ -10738,7 +11284,8 @@
     },
     "total": 2,
     "peso_kg": 0.097,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-185",
@@ -10757,7 +11304,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-189",
@@ -10776,7 +11324,8 @@
     },
     "total": 3,
     "peso_kg": 0.141,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-193",
@@ -10796,7 +11345,8 @@
     },
     "total": 3,
     "peso_kg": 0.067,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-194",
@@ -10815,7 +11365,8 @@
     },
     "total": 1,
     "peso_kg": 0.11,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-199",
@@ -10834,7 +11385,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-200",
@@ -10853,7 +11405,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-204",
@@ -10872,7 +11425,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-205",
@@ -10891,7 +11445,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-207",
@@ -10911,7 +11466,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-209",
@@ -10931,7 +11487,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-210",
@@ -10950,7 +11507,8 @@
     },
     "total": 3,
     "peso_kg": 0.118,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-945",
@@ -10969,7 +11527,8 @@
     },
     "total": 1,
     "peso_kg": 0.035,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-951",
@@ -10988,7 +11547,8 @@
     },
     "total": 1,
     "peso_kg": 0.038,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-952",
@@ -11007,7 +11567,8 @@
     },
     "total": 3,
     "peso_kg": 0.097,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-954",
@@ -11029,7 +11590,8 @@
     },
     "total": 6,
     "peso_kg": 0.051,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-956",
@@ -11054,7 +11616,8 @@
     },
     "total": 15,
     "peso_kg": 0.047,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-957",
@@ -11074,7 +11637,8 @@
     },
     "total": 2,
     "peso_kg": 0.051,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-960",
@@ -11094,7 +11658,8 @@
     },
     "total": 15,
     "peso_kg": 0.041,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-961",
@@ -11113,7 +11678,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-962",
@@ -11132,7 +11698,8 @@
     },
     "total": 1,
     "peso_kg": 0.042,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-963",
@@ -11151,7 +11718,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-966",
@@ -11170,7 +11738,8 @@
     },
     "total": 2,
     "peso_kg": 0.058,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-967",
@@ -11189,7 +11758,8 @@
     },
     "total": 1,
     "peso_kg": 0.093,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-968",
@@ -11208,7 +11778,8 @@
     },
     "total": 1,
     "peso_kg": 0.093,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-969",
@@ -11227,7 +11798,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-974",
@@ -11247,7 +11819,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-989",
@@ -11282,7 +11855,8 @@
     },
     "total": 47,
     "peso_kg": 0.066,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-990",
@@ -11301,7 +11875,8 @@
     },
     "total": 1,
     "peso_kg": 0.028,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-992",
@@ -11320,7 +11895,8 @@
     },
     "total": 1,
     "peso_kg": 0.036,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-993",
@@ -11340,7 +11916,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-995",
@@ -11359,7 +11936,8 @@
     },
     "total": 1,
     "peso_kg": 0.05,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-997",
@@ -11379,7 +11957,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-999",
@@ -11398,7 +11977,8 @@
     },
     "total": 1,
     "peso_kg": 0.025,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "06-GEN",
@@ -11417,7 +11997,8 @@
     },
     "total": 6,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-078",
@@ -11436,7 +12017,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-093",
@@ -11455,7 +12037,8 @@
     },
     "total": 1,
     "peso_kg": 0.284,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-105",
@@ -11474,7 +12057,8 @@
     },
     "total": 1,
     "peso_kg": 0.8,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-111",
@@ -11493,7 +12077,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-112",
@@ -11512,7 +12097,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-145",
@@ -11531,7 +12117,8 @@
     },
     "total": 3,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-146",
@@ -11550,7 +12137,8 @@
     },
     "total": 1,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-148",
@@ -11569,7 +12157,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-149",
@@ -11588,7 +12177,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-153",
@@ -11607,7 +12197,8 @@
     },
     "total": 1,
     "peso_kg": 0.8,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-156",
@@ -11626,7 +12217,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "07-303",
@@ -11645,7 +12237,8 @@
     },
     "total": 2,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-031",
@@ -11665,7 +12258,8 @@
     },
     "total": 18,
     "peso_kg": 0.1,
-    "foto": "08-031.jpg"
+    "foto": "08-031.jpg",
+    "color": "#242424"
   },
   {
     "modelo": "08-032",
@@ -11684,7 +12278,8 @@
     },
     "total": 1,
     "peso_kg": 0.036,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-035",
@@ -11703,7 +12298,8 @@
     },
     "total": 1,
     "peso_kg": 0.115,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-040",
@@ -11722,7 +12318,8 @@
     },
     "total": 5,
     "peso_kg": 0.066,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-048",
@@ -11747,7 +12344,8 @@
     },
     "total": 8,
     "peso_kg": 0.109,
-    "foto": "08-048.jpg"
+    "foto": "08-048.jpg",
+    "color": "#0c5484"
   },
   {
     "modelo": "08-053",
@@ -11766,7 +12364,8 @@
     },
     "total": 1,
     "peso_kg": 0.048,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-056",
@@ -11785,7 +12384,8 @@
     },
     "total": 1,
     "peso_kg": 0.02,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-061",
@@ -11804,7 +12404,8 @@
     },
     "total": 1,
     "peso_kg": 0.041,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-062",
@@ -11823,7 +12424,8 @@
     },
     "total": 1,
     "peso_kg": 0.063,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-065",
@@ -11842,7 +12444,8 @@
     },
     "total": 1,
     "peso_kg": 0.04,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-067",
@@ -11861,7 +12464,8 @@
     },
     "total": 2,
     "peso_kg": 0.095,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-068",
@@ -11880,7 +12484,8 @@
     },
     "total": 1,
     "peso_kg": 0.094,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-069",
@@ -11899,7 +12504,8 @@
     },
     "total": 1,
     "peso_kg": 0.041,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-070",
@@ -11918,7 +12524,8 @@
     },
     "total": 1,
     "peso_kg": 0.036,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-072",
@@ -11937,7 +12544,8 @@
     },
     "total": 1,
     "peso_kg": 0.07,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-073",
@@ -11956,7 +12564,8 @@
     },
     "total": 1,
     "peso_kg": 0.042,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-074",
@@ -11975,7 +12584,8 @@
     },
     "total": 1,
     "peso_kg": 0.045,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-075",
@@ -11994,7 +12604,8 @@
     },
     "total": 1,
     "peso_kg": 0.058,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-076",
@@ -12014,7 +12625,8 @@
     },
     "total": 3,
     "peso_kg": 0.089,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-077",
@@ -12034,7 +12646,8 @@
     },
     "total": 2,
     "peso_kg": 0.095,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-078",
@@ -12053,7 +12666,8 @@
     },
     "total": 1,
     "peso_kg": 0.095,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-081",
@@ -12072,7 +12686,8 @@
     },
     "total": 1,
     "peso_kg": 0.058,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-082",
@@ -12091,7 +12706,8 @@
     },
     "total": 2,
     "peso_kg": 0.072,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-087",
@@ -12110,7 +12726,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-088",
@@ -12129,7 +12746,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-090",
@@ -12148,7 +12766,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "08-091",
@@ -12169,7 +12788,8 @@
     },
     "total": 4,
     "peso_kg": 0.075,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-037",
@@ -12188,7 +12808,8 @@
     },
     "total": 1,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-696",
@@ -12207,7 +12828,8 @@
     },
     "total": 3,
     "peso_kg": 0.589,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-697",
@@ -12226,7 +12848,8 @@
     },
     "total": 2,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-728",
@@ -12245,7 +12868,8 @@
     },
     "total": 1,
     "peso_kg": 0.468,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-748",
@@ -12265,7 +12889,8 @@
     },
     "total": 3,
     "peso_kg": 0.336,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-754",
@@ -12284,7 +12909,8 @@
     },
     "total": 2,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-755",
@@ -12303,7 +12929,8 @@
     },
     "total": 1,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-756",
@@ -12322,7 +12949,8 @@
     },
     "total": 1,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-767",
@@ -12341,7 +12969,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-773",
@@ -12360,7 +12989,8 @@
     },
     "total": 1,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-779",
@@ -12379,7 +13009,8 @@
     },
     "total": 1,
     "peso_kg": 0.669,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-781",
@@ -12398,7 +13029,8 @@
     },
     "total": 1,
     "peso_kg": 0.291,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-782",
@@ -12417,7 +13049,8 @@
     },
     "total": 1,
     "peso_kg": 0.2,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-783",
@@ -12437,7 +13070,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-784",
@@ -12456,7 +13090,8 @@
     },
     "total": 1,
     "peso_kg": 0.2,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-785",
@@ -12475,7 +13110,8 @@
     },
     "total": 1,
     "peso_kg": 0.2,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-790",
@@ -12494,7 +13130,8 @@
     },
     "total": 1,
     "peso_kg": 0.907,
-    "foto": "09-790.jpg"
+    "foto": "09-790.jpg",
+    "color": "#545454"
   },
   {
     "modelo": "09-799",
@@ -12513,7 +13150,8 @@
     },
     "total": 1,
     "peso_kg": 0.907,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-804",
@@ -12532,7 +13170,8 @@
     },
     "total": 1,
     "peso_kg": 0.606,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-805",
@@ -12551,7 +13190,8 @@
     },
     "total": 1,
     "peso_kg": 0.471,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-816",
@@ -12570,7 +13210,8 @@
     },
     "total": 1,
     "peso_kg": 0.526,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-820",
@@ -12590,7 +13231,8 @@
     },
     "total": 2,
     "peso_kg": 0.5,
-    "foto": "09-820.jpg"
+    "foto": "09-820.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "09-825",
@@ -12610,7 +13252,8 @@
     },
     "total": 4,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-828",
@@ -12632,7 +13275,8 @@
     },
     "total": 2,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-829",
@@ -12655,7 +13299,8 @@
     },
     "total": 4,
     "peso_kg": 0.5,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-A07",
@@ -12675,7 +13320,8 @@
     },
     "total": 3,
     "peso_kg": 0.446,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "09-C02",
@@ -12694,7 +13340,8 @@
     },
     "total": 1,
     "peso_kg": 0.5,
-    "foto": "09-C02.jpg"
+    "foto": "09-C02.jpg",
+    "color": "#846c3c"
   },
   {
     "modelo": "14-013",
@@ -12713,7 +13360,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "14-015",
@@ -12732,7 +13380,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "14-023",
@@ -12751,7 +13400,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "14-024",
@@ -12770,7 +13420,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "14-025",
@@ -12792,7 +13443,8 @@
     },
     "total": 2,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "14-G06",
@@ -12811,7 +13463,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "14-G07",
@@ -12830,7 +13483,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "14-G18",
@@ -12852,7 +13506,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "14-G22",
@@ -12871,7 +13526,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-000",
@@ -12890,7 +13546,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-070",
@@ -12909,7 +13566,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-115",
@@ -12928,7 +13586,8 @@
     },
     "total": 1,
     "peso_kg": 0.5,
-    "foto": "15-115.jpg"
+    "foto": "15-115.jpg",
+    "color": "#ccccb4"
   },
   {
     "modelo": "15-125",
@@ -12947,7 +13606,8 @@
     },
     "total": 1,
     "peso_kg": 0.044,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-135",
@@ -12966,7 +13626,8 @@
     },
     "total": 2,
     "peso_kg": 0.677,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-162",
@@ -12985,7 +13646,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-183",
@@ -13004,7 +13666,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-195",
@@ -13025,7 +13688,8 @@
     },
     "total": 4,
     "peso_kg": 0.45,
-    "foto": "15-195.jpg"
+    "foto": "15-195.jpg",
+    "color": "#b4543c"
   },
   {
     "modelo": "15-197",
@@ -13044,7 +13708,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-222",
@@ -13064,7 +13729,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": "15-222.jpg"
+    "foto": "15-222.jpg",
+    "color": "#0c243c"
   },
   {
     "modelo": "15-223",
@@ -13087,7 +13753,8 @@
     },
     "total": 5,
     "peso_kg": 0.45,
-    "foto": "15-223.jpg"
+    "foto": "15-223.jpg",
+    "color": "#843c54"
   },
   {
     "modelo": "15-224",
@@ -13106,7 +13773,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": "15-224.jpg"
+    "foto": "15-224.jpg",
+    "color": "#242424"
   },
   {
     "modelo": "15-226",
@@ -13125,7 +13793,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": "15-226.jpg"
+    "foto": "15-226.jpg",
+    "color": "#6c6c54"
   },
   {
     "modelo": "15-244",
@@ -13144,7 +13813,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-246",
@@ -13163,7 +13833,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-248",
@@ -13187,7 +13858,8 @@
     },
     "total": 10,
     "peso_kg": 0.45,
-    "foto": "15-248.jpg"
+    "foto": "15-248.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "15-249",
@@ -13206,7 +13878,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-250",
@@ -13225,7 +13898,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-253",
@@ -13244,7 +13918,8 @@
     },
     "total": 3,
     "peso_kg": 0.4,
-    "foto": "15-253.jpg"
+    "foto": "15-253.jpg",
+    "color": "#3c243c"
   },
   {
     "modelo": "15-256",
@@ -13266,7 +13941,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-257",
@@ -13285,7 +13961,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-266",
@@ -13304,7 +13981,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-276",
@@ -13323,7 +14001,8 @@
     },
     "total": 3,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-279",
@@ -13342,7 +14021,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-283",
@@ -13361,7 +14041,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "15-292",
@@ -13380,7 +14061,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "18-008",
@@ -13399,7 +14081,8 @@
     },
     "total": 1,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "18-020",
@@ -13419,7 +14102,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "18-023",
@@ -13442,7 +14126,8 @@
     },
     "total": 7,
     "peso_kg": 0.1,
-    "foto": "18-023.jpg"
+    "foto": "18-023.jpg",
+    "color": "#3c3c3c"
   },
   {
     "modelo": "18-024",
@@ -13462,7 +14147,8 @@
     },
     "total": 4,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "18-026",
@@ -13481,7 +14167,8 @@
     },
     "total": 2,
     "peso_kg": 0.45,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-006",
@@ -13500,7 +14187,8 @@
     },
     "total": 1,
     "peso_kg": 0.059,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-007",
@@ -13519,7 +14207,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-031",
@@ -13544,7 +14233,8 @@
     },
     "total": 7,
     "peso_kg": 0.2,
-    "foto": "25-031.jpg"
+    "foto": "25-031.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "25-045",
@@ -13563,7 +14253,8 @@
     },
     "total": 1,
     "peso_kg": 0.2,
-    "foto": "25-045.jpg"
+    "foto": "25-045.jpg",
+    "color": "#9c9c84"
   },
   {
     "modelo": "25-0H3",
@@ -13582,7 +14273,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-100",
@@ -13601,7 +14293,8 @@
     },
     "total": 1,
     "peso_kg": 0.032,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-113",
@@ -13621,7 +14314,8 @@
     },
     "total": 3,
     "peso_kg": 0.2,
-    "foto": "25-113.jpg"
+    "foto": "25-113.jpg",
+    "color": "#b4b4b4"
   },
   {
     "modelo": "25-116",
@@ -13640,7 +14334,8 @@
     },
     "total": 1,
     "peso_kg": 0.132,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-121",
@@ -13659,7 +14354,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": "25-121.jpg"
+    "foto": "25-121.jpg",
+    "color": "#242424"
   },
   {
     "modelo": "25-136",
@@ -13689,7 +14385,8 @@
     },
     "total": 15,
     "peso_kg": 0.2,
-    "foto": "25-136.jpg"
+    "foto": "25-136.jpg",
+    "color": "#543c54"
   },
   {
     "modelo": "25-137",
@@ -13708,7 +14405,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-139",
@@ -13727,7 +14425,8 @@
     },
     "total": 1,
     "peso_kg": 0.2,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-158",
@@ -13746,7 +14445,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-160",
@@ -13765,7 +14465,8 @@
     },
     "total": 2,
     "peso_kg": 0.2,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-206",
@@ -13784,7 +14485,8 @@
     },
     "total": 1,
     "peso_kg": 0.2,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-211",
@@ -13803,7 +14505,8 @@
     },
     "total": 1,
     "peso_kg": 0.2,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-238",
@@ -13822,7 +14525,8 @@
     },
     "total": 1,
     "peso_kg": 0.021,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-246",
@@ -13841,7 +14545,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-247",
@@ -13861,7 +14566,8 @@
     },
     "total": 2,
     "peso_kg": 0.082,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-254",
@@ -13880,7 +14586,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-255",
@@ -13899,7 +14606,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-258",
@@ -13918,7 +14626,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-262",
@@ -13937,7 +14646,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-265",
@@ -13956,7 +14666,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-267",
@@ -13975,7 +14686,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-271",
@@ -13994,7 +14706,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-272",
@@ -14013,7 +14726,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-275",
@@ -14032,7 +14746,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-277",
@@ -14051,7 +14766,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-278",
@@ -14072,7 +14788,8 @@
     },
     "total": 4,
     "peso_kg": 0.171,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-280",
@@ -14091,7 +14808,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-283",
@@ -14110,7 +14828,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-285",
@@ -14131,7 +14850,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-286",
@@ -14150,7 +14870,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-287",
@@ -14170,7 +14891,8 @@
     },
     "total": 8,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-288",
@@ -14189,7 +14911,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-289",
@@ -14208,7 +14931,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-290",
@@ -14227,7 +14951,8 @@
     },
     "total": 1,
     "peso_kg": 0.42,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-291",
@@ -14246,7 +14971,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-293",
@@ -14265,7 +14991,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-294",
@@ -14284,7 +15011,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-296",
@@ -14303,7 +15031,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-297",
@@ -14322,7 +15051,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-298",
@@ -14341,7 +15071,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-299",
@@ -14360,7 +15091,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-301",
@@ -14380,7 +15112,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-308",
@@ -14399,7 +15132,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-314",
@@ -14418,7 +15152,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-315",
@@ -14437,7 +15172,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-319",
@@ -14456,7 +15192,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-320",
@@ -14475,7 +15212,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-321",
@@ -14494,7 +15232,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-322",
@@ -14514,7 +15253,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-323",
@@ -14533,7 +15273,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-325",
@@ -14553,7 +15294,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": "25-325.jpg"
+    "foto": "25-325.jpg",
+    "color": "#54849c"
   },
   {
     "modelo": "25-326",
@@ -14572,7 +15314,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": "25-326.jpg"
+    "foto": "25-326.jpg",
+    "color": "#3c6c9c"
   },
   {
     "modelo": "25-329",
@@ -14591,7 +15334,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": "25-329.jpg"
+    "foto": "25-329.jpg",
+    "color": "#84849c"
   },
   {
     "modelo": "25-330",
@@ -14610,7 +15354,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": "25-330.jpg"
+    "foto": "25-330.jpg",
+    "color": "#b49c84"
   },
   {
     "modelo": "25-333",
@@ -14629,7 +15374,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-334",
@@ -14648,7 +15394,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-335",
@@ -14667,7 +15414,8 @@
     },
     "total": 6,
     "peso_kg": 0.137,
-    "foto": "25-335.jpg"
+    "foto": "25-335.jpg",
+    "color": "#84546c"
   },
   {
     "modelo": "25-A39",
@@ -14686,7 +15434,8 @@
     },
     "total": 1,
     "peso_kg": 0.104,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "25-GEN",
@@ -14705,7 +15454,8 @@
     },
     "total": 1,
     "peso_kg": 0.9,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "27-005",
@@ -14724,7 +15474,8 @@
     },
     "total": 1,
     "peso_kg": 0.123,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "27-010",
@@ -14743,7 +15494,8 @@
     },
     "total": 1,
     "peso_kg": 0.215,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-034",
@@ -14762,7 +15514,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-054",
@@ -14782,7 +15535,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-055",
@@ -14801,7 +15555,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-056",
@@ -14820,7 +15575,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-058",
@@ -14839,7 +15595,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-059",
@@ -14858,7 +15615,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-063",
@@ -14878,7 +15636,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-064",
@@ -14897,7 +15656,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-066",
@@ -14916,7 +15676,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-067",
@@ -14935,7 +15696,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-068",
@@ -14954,7 +15716,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-069",
@@ -14974,7 +15737,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-070",
@@ -14995,7 +15759,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-071",
@@ -15015,7 +15780,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-072",
@@ -15035,7 +15801,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-073",
@@ -15054,7 +15821,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-074",
@@ -15074,7 +15842,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-075",
@@ -15097,7 +15866,8 @@
     },
     "total": 6,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-076",
@@ -15116,7 +15886,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-077",
@@ -15138,7 +15909,8 @@
     },
     "total": 4,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-081",
@@ -15157,7 +15929,8 @@
     },
     "total": 1,
     "peso_kg": 0.207,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-082",
@@ -15179,7 +15952,8 @@
     },
     "total": 2,
     "peso_kg": 0.058,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-089",
@@ -15200,7 +15974,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-090",
@@ -15220,7 +15995,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-091",
@@ -15242,7 +16018,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-092",
@@ -15261,7 +16038,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-093",
@@ -15280,7 +16058,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-094",
@@ -15299,7 +16078,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-095",
@@ -15318,7 +16098,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-097",
@@ -15337,7 +16118,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-098",
@@ -15356,7 +16138,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-099",
@@ -15375,7 +16158,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-101",
@@ -15394,7 +16178,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-102",
@@ -15413,7 +16198,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-103",
@@ -15436,7 +16222,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-105",
@@ -15456,7 +16243,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-106",
@@ -15478,7 +16266,8 @@
     },
     "total": 4,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-107",
@@ -15497,7 +16286,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-108",
@@ -15517,7 +16307,8 @@
     },
     "total": 3,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-111",
@@ -15536,7 +16327,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-112",
@@ -15555,7 +16347,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-113",
@@ -15574,7 +16367,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-115",
@@ -15593,7 +16387,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-116",
@@ -15612,7 +16407,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-117",
@@ -15631,7 +16427,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-118",
@@ -15650,7 +16447,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-124",
@@ -15672,7 +16470,8 @@
     },
     "total": 5,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-126",
@@ -15691,7 +16490,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-128",
@@ -15711,7 +16511,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": "45-128.jpg"
+    "foto": "45-128.jpg",
+    "color": "#246cb4"
   },
   {
     "modelo": "45-130",
@@ -15730,7 +16531,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-134",
@@ -15753,7 +16555,8 @@
     },
     "total": 4,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-135",
@@ -15773,7 +16576,8 @@
     },
     "total": 4,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-137",
@@ -15792,7 +16596,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-138",
@@ -15811,7 +16616,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-139",
@@ -15830,7 +16636,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-140",
@@ -15849,7 +16656,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "45-142",
@@ -15868,7 +16676,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-165",
@@ -15887,7 +16696,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-189",
@@ -15906,7 +16716,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-219",
@@ -15925,7 +16736,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-220",
@@ -15944,7 +16756,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-225",
@@ -15963,7 +16776,8 @@
     },
     "total": 2,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-243",
@@ -15982,7 +16796,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-247",
@@ -16001,7 +16816,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-254",
@@ -16020,7 +16836,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-259",
@@ -16039,7 +16856,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-261",
@@ -16058,7 +16876,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-279",
@@ -16077,7 +16896,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-283",
@@ -16100,7 +16920,8 @@
     },
     "total": 7,
     "peso_kg": 0.35,
-    "foto": "56-283.jpg"
+    "foto": "56-283.jpg",
+    "color": "#b43c54"
   },
   {
     "modelo": "56-286",
@@ -16119,7 +16940,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-287",
@@ -16138,7 +16960,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "56-287.jpg"
+    "foto": "56-287.jpg",
+    "color": "#3c2424"
   },
   {
     "modelo": "56-288",
@@ -16157,7 +16980,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-297",
@@ -16178,7 +17002,8 @@
     },
     "total": 5,
     "peso_kg": 0.35,
-    "foto": "56-297.jpg"
+    "foto": "56-297.jpg",
+    "color": "#542424"
   },
   {
     "modelo": "56-306",
@@ -16197,7 +17022,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-308",
@@ -16216,7 +17042,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-309",
@@ -16239,7 +17066,8 @@
     },
     "total": 6,
     "peso_kg": 0.35,
-    "foto": "56-309.jpg"
+    "foto": "56-309.jpg",
+    "color": "#243c54"
   },
   {
     "modelo": "56-310",
@@ -16258,7 +17086,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-312",
@@ -16277,7 +17106,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-313",
@@ -16307,7 +17137,8 @@
     },
     "total": 9,
     "peso_kg": 0.35,
-    "foto": "56-313.jpg"
+    "foto": "56-313.jpg",
+    "color": "#0c2424"
   },
   {
     "modelo": "56-319",
@@ -16326,7 +17157,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-323",
@@ -16345,7 +17177,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-342",
@@ -16364,7 +17197,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-343",
@@ -16383,7 +17217,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-348",
@@ -16402,7 +17237,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-350",
@@ -16421,7 +17257,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-352",
@@ -16440,7 +17277,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-357",
@@ -16461,7 +17299,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": "56-357.jpg"
+    "foto": "56-357.jpg",
+    "color": "#545454"
   },
   {
     "modelo": "56-361",
@@ -16480,7 +17319,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-362",
@@ -16499,7 +17339,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-365",
@@ -16518,7 +17359,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-369",
@@ -16537,7 +17379,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-382",
@@ -16556,7 +17399,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-383",
@@ -16575,7 +17419,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-384",
@@ -16594,7 +17439,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-387",
@@ -16613,7 +17459,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-390",
@@ -16632,7 +17479,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-392",
@@ -16651,7 +17499,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-396",
@@ -16670,7 +17519,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": "56-396.jpg"
+    "foto": "56-396.jpg",
+    "color": "#849c9c"
   },
   {
     "modelo": "56-397",
@@ -16689,7 +17539,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-398",
@@ -16708,7 +17559,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-400",
@@ -16727,7 +17579,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-401",
@@ -16746,7 +17599,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-402",
@@ -16765,7 +17619,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-405",
@@ -16784,7 +17639,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-406",
@@ -16803,7 +17659,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-411",
@@ -16822,7 +17679,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-416",
@@ -16841,7 +17699,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-419",
@@ -16860,7 +17719,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-421",
@@ -16881,7 +17741,8 @@
     },
     "total": 4,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-422",
@@ -16900,7 +17761,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-423",
@@ -16919,7 +17781,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-424",
@@ -16939,7 +17802,8 @@
     },
     "total": 3,
     "peso_kg": 0.35,
-    "foto": "56-424.jpg"
+    "foto": "56-424.jpg",
+    "color": "#6c549c"
   },
   {
     "modelo": "56-425",
@@ -16958,7 +17822,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-426",
@@ -16977,7 +17842,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-427",
@@ -16997,7 +17863,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-436",
@@ -17018,7 +17885,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-437",
@@ -17037,7 +17905,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-438",
@@ -17057,7 +17926,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-445",
@@ -17076,7 +17946,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-450",
@@ -17095,7 +17966,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-452",
@@ -17114,7 +17986,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-453",
@@ -17134,7 +18007,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-454",
@@ -17153,7 +18027,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-457",
@@ -17173,7 +18048,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-458",
@@ -17193,7 +18069,8 @@
     },
     "total": 3,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-460",
@@ -17212,7 +18089,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-468",
@@ -17231,7 +18109,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-479",
@@ -17250,7 +18129,8 @@
     },
     "total": 1,
     "peso_kg": 1.0,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-485",
@@ -17269,7 +18149,8 @@
     },
     "total": 1,
     "peso_kg": 0.35,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-489",
@@ -17288,7 +18169,8 @@
     },
     "total": 1,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-490",
@@ -17307,7 +18189,8 @@
     },
     "total": 2,
     "peso_kg": 0.4,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "56-494",
@@ -17326,7 +18209,8 @@
     },
     "total": 1,
     "peso_kg": 0.368,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-016",
@@ -17345,7 +18229,8 @@
     },
     "total": 1,
     "peso_kg": 0.053,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-019",
@@ -17364,7 +18249,8 @@
     },
     "total": 1,
     "peso_kg": 0.05,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-046",
@@ -17383,7 +18269,8 @@
     },
     "total": 3,
     "peso_kg": 0.26,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-047",
@@ -17403,7 +18290,8 @@
     },
     "total": 2,
     "peso_kg": 0.169,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-049",
@@ -17422,7 +18310,8 @@
     },
     "total": 1,
     "peso_kg": 0.05,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-057",
@@ -17441,7 +18330,8 @@
     },
     "total": 1,
     "peso_kg": 0.7,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-059",
@@ -17463,7 +18353,8 @@
     },
     "total": 2,
     "peso_kg": 0.124,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-060",
@@ -17482,7 +18373,8 @@
     },
     "total": 2,
     "peso_kg": 0.042,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-063",
@@ -17505,7 +18397,8 @@
     },
     "total": 5,
     "peso_kg": 0.7,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-064",
@@ -17524,7 +18417,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-065",
@@ -17549,7 +18443,8 @@
     },
     "total": 7,
     "peso_kg": 0.7,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-066",
@@ -17569,7 +18464,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "57-067",
@@ -17588,7 +18484,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": "57-067.jpg"
+    "foto": "57-067.jpg",
+    "color": "#848484"
   },
   {
     "modelo": "57-070",
@@ -17611,7 +18508,8 @@
     },
     "total": 4,
     "peso_kg": 0.7,
-    "foto": "57-070.jpg"
+    "foto": "57-070.jpg",
+    "color": "#546c84"
   },
   {
     "modelo": "58-002",
@@ -17630,7 +18528,8 @@
     },
     "total": 3,
     "peso_kg": 0.151,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-009",
@@ -17649,7 +18548,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-010",
@@ -17668,7 +18568,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-012",
@@ -17687,7 +18588,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-016",
@@ -17706,7 +18608,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-017",
@@ -17726,7 +18629,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-021",
@@ -17745,7 +18649,8 @@
     },
     "total": 1,
     "peso_kg": 0.028,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-022",
@@ -17764,7 +18669,8 @@
     },
     "total": 1,
     "peso_kg": 0.078,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-023",
@@ -17783,7 +18689,8 @@
     },
     "total": 1,
     "peso_kg": 0.044,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-024",
@@ -17804,7 +18711,8 @@
     },
     "total": 5,
     "peso_kg": 0.1,
-    "foto": "58-024.jpg"
+    "foto": "58-024.jpg",
+    "color": "#9c9c9c"
   },
   {
     "modelo": "58-025",
@@ -17827,7 +18735,8 @@
     },
     "total": 15,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-026",
@@ -17846,7 +18755,8 @@
     },
     "total": 2,
     "peso_kg": 0.035,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-027",
@@ -17866,7 +18776,8 @@
     },
     "total": 4,
     "peso_kg": 0.068,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "58-028",
@@ -17885,7 +18796,8 @@
     },
     "total": 1,
     "peso_kg": 0.063,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "59-064",
@@ -17904,7 +18816,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": "59-064.jpg"
+    "foto": "59-064.jpg",
+    "color": "#846c6c"
   },
   {
     "modelo": "59-066",
@@ -17923,7 +18836,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "59-092",
@@ -17943,7 +18857,8 @@
     },
     "total": 2,
     "peso_kg": 0.442,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "59-093",
@@ -17962,7 +18877,8 @@
     },
     "total": 1,
     "peso_kg": 0.3,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-013",
@@ -17981,7 +18897,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-014",
@@ -18000,7 +18917,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-015",
@@ -18019,7 +18937,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-016",
@@ -18038,7 +18957,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-017",
@@ -18057,7 +18977,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-018",
@@ -18076,7 +18997,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-019",
@@ -18095,7 +19017,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-024",
@@ -18114,7 +19037,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-025",
@@ -18133,7 +19057,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-026",
@@ -18152,7 +19077,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-027",
@@ -18171,7 +19097,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "69-033",
@@ -18190,7 +19117,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "89-013",
@@ -18209,7 +19137,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "89-015",
@@ -18228,7 +19157,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "89-030",
@@ -18247,7 +19177,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "89-032",
@@ -18266,7 +19197,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "89-048",
@@ -18285,7 +19217,8 @@
     },
     "total": 2,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "89-049",
@@ -18304,7 +19237,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "89-051",
@@ -18323,7 +19257,8 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "89-056",
@@ -18343,7 +19278,8 @@
     },
     "total": 3,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   },
   {
     "modelo": "89-058",
@@ -18362,6 +19298,7 @@
     },
     "total": 1,
     "peso_kg": 0.1,
-    "foto": null
+    "foto": null,
+    "color": null
   }
 ]

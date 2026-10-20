@@ -27,7 +27,24 @@ interface Row {
   total: number;
   peso_kg: number | null;
   foto: string | null;
+  /** Color dominante precalculado desde la foto (hex), o null si no hay foto. */
+  color?: string | null;
 }
+
+/** Mapea el tipo de prenda a la categoría + silueta que mejor malla 3D elige. */
+const TIPO_3D: Record<GarmentTipo, { categoria: Garment["categoria"]; siluetas: string[] }> = {
+  coat: { categoria: "outerwear", siluetas: ["punto"] },
+  cardigan: { categoria: "outerwear", siluetas: ["punto"] },
+  jacket: { categoria: "outerwear", siluetas: [] },
+  poncho: { categoria: "outerwear", siluetas: ["punto"] },
+  shawl: { categoria: "outerwear", siluetas: ["punto"] },
+  sweater: { categoria: "top", siluetas: ["punto"] },
+  vest: { categoria: "top", siluetas: [] },
+  dress: { categoria: "dress", siluetas: [] },
+  skirt: { categoria: "bottom", siluetas: ["falda"] },
+  pants: { categoria: "bottom", siluetas: [] },
+  top: { categoria: "top", siluetas: [] },
+};
 
 /** Clase CSS por estado de ajuste (reaprovecha la paleta del importador). */
 const STATE_CLASS: Record<string, string> = {
@@ -46,18 +63,67 @@ interface Props {
   onTryOn?: (g: Garment) => void;
 }
 
+/**
+ * Color dominante (promedio) de la foto del producto, ignorando el fondo blanco
+ * típico de catálogo y las sombras muy oscuras. Sirve para que la prenda en 3D
+ * respete el color real (los códigos de color de fábrica no son hex). La foto es
+ * del mismo origen, así que el canvas no queda "tainted".
+ */
+async function dominantColorFromUrl(url: string): Promise<string | null> {
+  try {
+    const img = await new Promise<HTMLImageElement>((resolve, reject) => {
+      const el = new Image();
+      el.crossOrigin = "anonymous";
+      el.onload = () => resolve(el);
+      el.onerror = reject;
+      el.src = url;
+    });
+    const w = 64;
+    const h = 64;
+    const canvas = document.createElement("canvas");
+    canvas.width = w;
+    canvas.height = h;
+    const ctx = canvas.getContext("2d", { willReadFrequently: true });
+    if (!ctx) return null;
+    ctx.drawImage(img, 0, 0, w, h);
+    const { data } = ctx.getImageData(0, 0, w, h);
+    let r = 0;
+    let g = 0;
+    let b = 0;
+    let n = 0;
+    for (let i = 0; i < data.length; i += 4) {
+      const R = data[i];
+      const G = data[i + 1];
+      const B = data[i + 2];
+      const A = data[i + 3];
+      if (A < 128) continue;
+      if (R > 235 && G > 235 && B > 235) continue; // fondo blanco
+      if (R < 16 && G < 16 && B < 16) continue; // sombra negra
+      r += R;
+      g += G;
+      b += B;
+      n += 1;
+    }
+    if (!n) return null;
+    const to2 = (v: number) => Math.round(v / n).toString(16).padStart(2, "0");
+    return `#${to2(r)}${to2(g)}${to2(b)}`;
+  } catch {
+    return null;
+  }
+}
+
 /** Convierte una fila de fábrica en un `Garment` con su tabla por defecto. */
 function toGarment(r: Row): Garment {
   const tallas = defaultSizeChart(r.tipo, r.tallas_disponibles);
-  const categoria: Garment["categoria"] =
-    r.categoria === "accessory" ? "outerwear" : r.categoria;
+  const map = TIPO_3D[r.tipo] ?? { categoria: "top", siluetas: [] };
   return {
     id: `shirley-${r.modelo}`,
     nombre: r.descripcion || r.modelo,
-    categoria,
+    categoria: map.categoria,
     genero: "female",
-    color: "#6b6f76", // punto neutro (los códigos de color de fábrica no son hex)
-    siluetas: r.tejido === "punto" ? ["punto"] : [],
+    // Color real de la prenda (precalculado desde la foto); gris neutro si falta.
+    color: r.color ?? "#6b6f76",
+    siluetas: map.siluetas,
     precio: 0,
     tallas,
     tejido: FABRIC_PUNTO,
@@ -189,10 +255,18 @@ export function CatalogoShirley({ measurements, onClose, onTryOn }: Props) {
           <div className="shirley-grid">
             {!rows && !err && <p className="est-status">Cargando catálogo…</p>}
             {visible.map((r) => (
-              <button
+              <div
                 key={r.modelo}
+                role="button"
+                tabIndex={0}
                 className={`shirley-card${sel?.modelo === r.modelo ? " on" : ""}`}
                 onClick={() => setSel(r)}
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    setSel(r);
+                  }
+                }}
               >
                 <div className="shirley-thumb">
                   {r.foto ? (
@@ -207,7 +281,7 @@ export function CatalogoShirley({ measurements, onClose, onTryOn }: Props) {
                     {TIPO_LABEL[r.tipo]} · {r.tallas_disponibles.join("/")}
                   </span>
                 </div>
-              </button>
+              </div>
             ))}
             {visible.length < filtered.length && (
               <button className="ghost-btn cat-more" onClick={() => setLimit((n) => n + 48)}>
@@ -271,13 +345,26 @@ export function CatalogoShirley({ measurements, onClose, onTryOn }: Props) {
               {onTryOn && (
                 <button
                   className="primary-btn"
-                  onClick={() => {
-                    onTryOn(toGarment(sel));
+                  onClick={async () => {
+                    const g = toGarment(sel);
+                    // El color viene precalculado desde la foto; si faltara, se
+                    // extrae en el cliente como respaldo.
+                    if (!sel.color && sel.foto) {
+                      const color = await dominantColorFromUrl(`${BASE}/fotos/${sel.foto}`);
+                      if (color) g.color = color;
+                    }
+                    onTryOn(g);
                     onClose();
                   }}
                 >
                   Probármela en el avatar 3D
                 </button>
+              )}
+              {onTryOn && (
+                <p className="shirley-note" style={{ borderTop: "none", paddingTop: 6 }}>
+                  Vista aproximada: el avatar viste una prenda <strong>genérica de la
+                  categoría</strong> con el color de la foto, no la prenda exacta.
+                </p>
               )}
             </aside>
           )}

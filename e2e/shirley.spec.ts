@@ -38,6 +38,36 @@ test.describe("catálogo de fábrica (Shirley)", () => {
     await expect(page.locator(".shirley-card").first()).toBeVisible();
   });
 
+  test("probar una prenda la viste en el avatar 3D con su color", async ({ page }) => {
+    test.setTimeout(120_000);
+    await registerViaUI(page);
+
+    await page.getByRole("button", { name: /Catálogo de fábrica/ }).click();
+    await expect(page.getByText(/Catálogo Shirley/)).toBeVisible();
+
+    const card = page.locator(".shirley-card").first();
+    await expect(card).toBeVisible({ timeout: 10_000 });
+    const nombre = ((await card.locator(".shirley-meta strong").textContent()) ?? "").trim();
+    await card.click();
+
+    await page
+      .locator(".shirley-detail")
+      .getByRole("button", { name: /Probármela en el avatar 3D/ })
+      .click();
+
+    // El modal se cierra al llevar la prenda al avatar.
+    await expect(page.getByText(/Catálogo Shirley/)).toHaveCount(0);
+
+    // En Avatar 3D, la prenda aparece en la lista de puestas, con su muestra de color.
+    await page.getByRole("button", { name: "Avatar 3D" }).click();
+    const row = page.locator(".gs-row", { hasText: nombre });
+    await expect(row).toBeVisible({ timeout: 20_000 });
+    await expect(row.locator(".sw")).toBeVisible();
+    // La muestra lleva un color real (no vacío) tomado de la foto.
+    const bg = await row.locator(".sw").evaluate((el) => getComputedStyle(el).backgroundColor);
+    expect(bg).toMatch(/^rgb/);
+  });
+
   test("el filtro por tipo acota el catálogo", async ({ page }) => {
     await registerViaUI(page);
     await page.getByRole("button", { name: /Catálogo de fábrica/ }).click();

@@ -23,6 +23,11 @@ python extract_photos.py photos   # -> photos/ + photos_map.json
 # 3) fusiona la foto en el catálogo y copia a la web:
 #    añade el campo "foto" a cada modelo y copia catalog.json + photos/
 #    a apps/web/public/shirley/{catalogo.json,fotos/}
+
+# 4) color dominante por prenda (desde la zona central de cada foto):
+#    añade el campo "color" (hex) a cada modelo de apps/web/public/shirley/catalogo.json
+pip install Pillow
+python compute_colors.py apps/web/public/shirley
 ```
 
 Fuente esperada en `/Users/jorge/Documents/shirley/`:
