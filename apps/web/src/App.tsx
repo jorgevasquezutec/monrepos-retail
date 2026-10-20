@@ -15,7 +15,6 @@ import { Stage, type Confidence } from "./components/Stage.tsx";
 import { ProfilePanel } from "./components/ProfilePanel.tsx";
 import { BodyForm, type Gender } from "./components/BodyForm.tsx";
 import { Recommendations } from "./components/Recommendations.tsx";
-import { SizeChartImporter } from "./components/SizeChartImporter.tsx";
 import { GarmentUploader } from "./components/GarmentUploader.tsx";
 import { CatalogoShirley } from "./components/CatalogoShirley.tsx";
 import { AuthScreen } from "./components/AuthScreen.tsx";
@@ -325,7 +324,6 @@ export function App() {
           >
             Catálogo de fábrica · probar prendas reales
           </button>
-          <SizeChartImporter measurements={medidas} />
         </aside>
       </main>
 

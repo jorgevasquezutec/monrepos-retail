@@ -1418,7 +1418,31 @@ body {
 .gen-failed { inset: 60px 0 0 0; gap: 12px; text-align: center; padding: 0 24px; }
 
 /* ---- Catálogo de fábrica (Shirley) ---------------------------------- */
-.catalogo-cta { width: 100%; margin: 14px 0 4px; }
+/* Botón sólido de acción (CTA), consistente con .est-btn del escenario. */
+.primary-btn {
+  border: none;
+  background: var(--ink);
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 13.5px;
+  font-weight: 600;
+  padding: 11px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s var(--ease), transform 0.12s var(--ease);
+}
+.primary-btn:hover { background: #26262a; }
+.primary-btn:active { transform: translateY(1px); }
+
+/* CTA del catálogo: alineado al inset del panel (28px), con aire arriba/abajo. */
+.catalogo-cta {
+  display: block;
+  width: calc(100% - 56px);
+  margin: 22px 28px 18px;
+  padding: 13px 18px;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+}
 
 .modal-wide { width: min(1040px, 100%); }
 

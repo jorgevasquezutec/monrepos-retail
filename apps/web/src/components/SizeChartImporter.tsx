@@ -17,7 +17,9 @@ interface Props {
   onApply?: (chart: SizeChart, fabric: Fabric) => void;
 }
 
-const PLACEHOLDER = `talla,chest,waist,hip,length,sleeve
+// Ejemplo en español (el parser también acepta inglés y talla única O/S).
+// Son medidas de la PRENDA TERMINADA en cm, no del cuerpo.
+const PLACEHOLDER = `talla,pecho,cintura,cadera,largo,manga
 S,96,84,98,70,20
 M,102,90,104,72,21
 L,108,96,110,74,22`;
