@@ -27,7 +27,24 @@ interface Row {
   total: number;
   peso_kg: number | null;
   foto: string | null;
+  /** Color dominante precalculado desde la foto (hex), o null si no hay foto. */
+  color?: string | null;
 }
+
+/** Mapea el tipo de prenda a la categoría + silueta que mejor malla 3D elige. */
+const TIPO_3D: Record<GarmentTipo, { categoria: Garment["categoria"]; siluetas: string[] }> = {
+  coat: { categoria: "outerwear", siluetas: ["punto"] },
+  cardigan: { categoria: "outerwear", siluetas: ["punto"] },
+  jacket: { categoria: "outerwear", siluetas: [] },
+  poncho: { categoria: "outerwear", siluetas: ["punto"] },
+  shawl: { categoria: "outerwear", siluetas: ["punto"] },
+  sweater: { categoria: "top", siluetas: ["punto"] },
+  vest: { categoria: "top", siluetas: [] },
+  dress: { categoria: "dress", siluetas: [] },
+  skirt: { categoria: "bottom", siluetas: ["falda"] },
+  pants: { categoria: "bottom", siluetas: [] },
+  top: { categoria: "top", siluetas: [] },
+};
 
 /** Clase CSS por estado de ajuste (reaprovecha la paleta del importador). */
 const STATE_CLASS: Record<string, string> = {
@@ -98,15 +115,15 @@ async function dominantColorFromUrl(url: string): Promise<string | null> {
 /** Convierte una fila de fábrica en un `Garment` con su tabla por defecto. */
 function toGarment(r: Row): Garment {
   const tallas = defaultSizeChart(r.tipo, r.tallas_disponibles);
-  const categoria: Garment["categoria"] =
-    r.categoria === "accessory" ? "outerwear" : r.categoria;
+  const map = TIPO_3D[r.tipo] ?? { categoria: "top", siluetas: [] };
   return {
     id: `shirley-${r.modelo}`,
     nombre: r.descripcion || r.modelo,
-    categoria,
+    categoria: map.categoria,
     genero: "female",
-    color: "#6b6f76", // punto neutro (los códigos de color de fábrica no son hex)
-    siluetas: r.tejido === "punto" ? ["punto"] : [],
+    // Color real de la prenda (precalculado desde la foto); gris neutro si falta.
+    color: r.color ?? "#6b6f76",
+    siluetas: map.siluetas,
     precio: 0,
     tallas,
     tejido: FABRIC_PUNTO,
@@ -330,8 +347,9 @@ export function CatalogoShirley({ measurements, onClose, onTryOn }: Props) {
                   className="primary-btn"
                   onClick={async () => {
                     const g = toGarment(sel);
-                    // Respeta el color real de la prenda en el 3D (desde su foto).
-                    if (sel.foto) {
+                    // El color viene precalculado desde la foto; si faltara, se
+                    // extrae en el cliente como respaldo.
+                    if (!sel.color && sel.foto) {
                       const color = await dominantColorFromUrl(`${BASE}/fotos/${sel.foto}`);
                       if (color) g.color = color;
                     }
@@ -341,6 +359,12 @@ export function CatalogoShirley({ measurements, onClose, onTryOn }: Props) {
                 >
                   Probármela en el avatar 3D
                 </button>
+              )}
+              {onTryOn && (
+                <p className="shirley-note" style={{ borderTop: "none", paddingTop: 6 }}>
+                  Vista aproximada: el avatar viste una prenda <strong>genérica de la
+                  categoría</strong> con el color de la foto, no la prenda exacta.
+                </p>
               )}
             </aside>
           )}
