@@ -1,0 +1,288 @@
+import { useEffect, useMemo, useState } from "react";
+import {
+  defaultSizeChart,
+  FABRIC_PUNTO,
+  recommendSize,
+  tieneAjuste,
+  TIPO_LABEL,
+  type Garment,
+  type GarmentTipo,
+  type Measurements,
+  type SizeLabel,
+} from "@retail/style-engine";
+
+/** Base pública donde el extractor dejó el catálogo y las fotos de la fábrica. */
+const BASE = "/shirley";
+
+/** Fila cruda del catálogo extraído de los Excel de la fábrica. */
+interface Row {
+  modelo: string;
+  descripcion: string;
+  categoria: Garment["categoria"] | "accessory";
+  tipo: GarmentTipo;
+  tejido: "punto" | "plano";
+  colores: string[];
+  tallas_disponibles: SizeLabel[];
+  stock: Record<string, number>;
+  total: number;
+  peso_kg: number | null;
+  foto: string | null;
+}
+
+/** Clase CSS por estado de ajuste (reaprovecha la paleta del importador). */
+const STATE_CLASS: Record<string, string> = {
+  "no-entra": "fit-bad",
+  "muy-ajustada": "fit-tight",
+  ajustada: "fit-snug",
+  regular: "fit-ok",
+  holgada: "fit-loose",
+  oversize: "fit-loose",
+};
+
+interface Props {
+  measurements: Measurements;
+  onClose: () => void;
+  /** Lleva la prenda al avatar 3D (la añade al catálogo y la selecciona). */
+  onTryOn?: (g: Garment) => void;
+}
+
+/** Convierte una fila de fábrica en un `Garment` con su tabla por defecto. */
+function toGarment(r: Row): Garment {
+  const tallas = defaultSizeChart(r.tipo, r.tallas_disponibles);
+  const categoria: Garment["categoria"] =
+    r.categoria === "accessory" ? "outerwear" : r.categoria;
+  return {
+    id: `shirley-${r.modelo}`,
+    nombre: r.descripcion || r.modelo,
+    categoria,
+    genero: "female",
+    color: "#6b6f76", // punto neutro (los códigos de color de fábrica no son hex)
+    siluetas: r.tejido === "punto" ? ["punto"] : [],
+    precio: 0,
+    tallas,
+    tejido: FABRIC_PUNTO,
+    texturaUrl: r.foto ? `${BASE}/fotos/${r.foto}` : undefined,
+  };
+}
+
+/**
+ * Catálogo real de la fábrica (Shirley): navega 937 modelos con su foto, y para
+ * cada uno te dice QUÉ TALLA te queda con tus medidas actuales. Como la fábrica
+ * no entrega ficha técnica, el ajuste usa tablas estándar por tipo de prenda
+ * (claramente señalado); si algún día llega la ficha real, manda esa.
+ */
+export function CatalogoShirley({ measurements, onClose, onTryOn }: Props) {
+  const [rows, setRows] = useState<Row[] | null>(null);
+  const [err, setErr] = useState<string | null>(null);
+  const [q, setQ] = useState("");
+  const [tipo, setTipo] = useState<GarmentTipo | "todas">("todas");
+  const [onlyPhoto, setOnlyPhoto] = useState(true);
+  const [limit, setLimit] = useState(48);
+  const [sel, setSel] = useState<Row | null>(null);
+
+  useEffect(() => {
+    let alive = true;
+    fetch(`${BASE}/catalogo.json`)
+      .then((r) => {
+        if (!r.ok) throw new Error(`HTTP ${r.status}`);
+        return r.json();
+      })
+      .then((data: Row[]) => alive && setRows(data))
+      .catch((e) => alive && setErr(String(e)));
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  const tipos = useMemo(
+    () =>
+      rows
+        ? (Array.from(new Set(rows.map((r) => r.tipo))) as GarmentTipo[]).sort(
+            (a, b) => TIPO_LABEL[a].localeCompare(TIPO_LABEL[b]),
+          )
+        : [],
+    [rows],
+  );
+
+  const filtered = useMemo(() => {
+    if (!rows) return [];
+    const qq = q.trim().toLowerCase();
+    return rows.filter(
+      (r) =>
+        (!onlyPhoto || r.foto) &&
+        (tipo === "todas" || r.tipo === tipo) &&
+        (!qq ||
+          r.modelo.toLowerCase().includes(qq) ||
+          r.descripcion.toLowerCase().includes(qq)),
+    );
+  }, [rows, q, tipo, onlyPhoto]);
+
+  const visible = filtered.slice(0, limit);
+
+  const measuresOk = !!(measurements.bust && measurements.waist && measurements.hip);
+
+  // Recomendación de talla para la prenda seleccionada.
+  const rec = useMemo(() => {
+    if (!sel || !measuresOk || !tieneAjuste(sel.tipo)) return null;
+    const chart = defaultSizeChart(sel.tipo, sel.tallas_disponibles);
+    if (!Object.keys(chart).length) return null;
+    return recommendSize(measurements, chart, FABRIC_PUNTO);
+  }, [sel, measuresOk, measurements]);
+
+  return (
+    <div className="modal-backdrop" onClick={onClose}>
+      <div className="modal modal-wide" onClick={(e) => e.stopPropagation()}>
+        <div className="modal-head">
+          <span className="kicker">Catálogo Shirley · {rows ? rows.length : "…"} modelos</span>
+          <button className="ghost-btn" onClick={onClose}>
+            cerrar
+          </button>
+        </div>
+
+        {err && <p className="csv-errors">No pude cargar el catálogo: {err}</p>}
+
+        {/* Filtros */}
+        <div className="cat-filters">
+          <input
+            className="cat-search"
+            placeholder="Buscar modelo o descripción…"
+            value={q}
+            onChange={(e) => {
+              setQ(e.target.value);
+              setLimit(48);
+            }}
+          />
+          <select
+            className="cat-tipo"
+            value={tipo}
+            onChange={(e) => {
+              setTipo(e.target.value as GarmentTipo | "todas");
+              setLimit(48);
+            }}
+          >
+            <option value="todas">Todos los tipos</option>
+            {tipos.map((t) => (
+              <option key={t} value={t}>
+                {TIPO_LABEL[t]}
+              </option>
+            ))}
+          </select>
+          <label className="cat-onlyphoto">
+            <input
+              type="checkbox"
+              checked={onlyPhoto}
+              onChange={(e) => setOnlyPhoto(e.target.checked)}
+            />
+            solo con foto
+          </label>
+          <span className="cat-count">{filtered.length} resultados</span>
+        </div>
+
+        {!measuresOk && (
+          <p className="est-status" style={{ maxWidth: "none", margin: "0 0 8px" }}>
+            Introduce tus medidas para ver qué talla te queda en cada prenda.
+          </p>
+        )}
+
+        <div className="cat-body">
+          {/* Rejilla */}
+          <div className="shirley-grid">
+            {!rows && !err && <p className="est-status">Cargando catálogo…</p>}
+            {visible.map((r) => (
+              <button
+                key={r.modelo}
+                className={`shirley-card${sel?.modelo === r.modelo ? " on" : ""}`}
+                onClick={() => setSel(r)}
+              >
+                <div className="shirley-thumb">
+                  {r.foto ? (
+                    <img src={`${BASE}/fotos/${r.foto}`} alt={r.descripcion} loading="lazy" />
+                  ) : (
+                    <span className="no-photo">sin foto</span>
+                  )}
+                </div>
+                <div className="shirley-meta">
+                  <strong>{r.descripcion || r.modelo}</strong>
+                  <span className="shirley-sub">
+                    {TIPO_LABEL[r.tipo]} · {r.tallas_disponibles.join("/")}
+                  </span>
+                </div>
+              </button>
+            ))}
+            {visible.length < filtered.length && (
+              <button className="ghost-btn cat-more" onClick={() => setLimit((n) => n + 48)}>
+                cargar más ({filtered.length - visible.length})
+              </button>
+            )}
+          </div>
+
+          {/* Detalle de la prenda seleccionada */}
+          {sel && (
+            <aside className="shirley-detail">
+              <div className="shirley-detail-photo">
+                {sel.foto ? (
+                  <img src={`${BASE}/fotos/${sel.foto}`} alt={sel.descripcion} />
+                ) : (
+                  <span className="no-photo">sin foto</span>
+                )}
+              </div>
+              <h3>{sel.descripcion || sel.modelo}</h3>
+              <p className="shirley-detail-sub">
+                {TIPO_LABEL[sel.tipo]} · modelo {sel.modelo} · {sel.colores.length} color(es)
+              </p>
+              <p className="shirley-detail-sub">
+                Tallas en stock: <strong>{sel.tallas_disponibles.join(", ")}</strong>
+              </p>
+
+              {/* Veredicto de talla */}
+              {!tieneAjuste(sel.tipo) ? (
+                <p className="shirley-onesize">Talla única — no requiere ajuste por medidas.</p>
+              ) : rec ? (
+                <div className="csv-fit">
+                  <div className="csv-fit-head">
+                    <span className="kicker">Con tus medidas</span>
+                    <strong>{rec.best ? `Tu talla: ${rec.best}` : "Ninguna talla te entra"}</strong>
+                  </div>
+                  <ul>
+                    {rec.all.map((f) => (
+                      <li key={f.size} className={f.size === rec.best ? "best" : ""}>
+                        <span className="talla">{f.size}</span>
+                        <span className={`fit-badge ${STATE_CLASS[f.worst] ?? ""}`}>{f.worst}</span>
+                        <span className="zones">
+                          {f.zones
+                            .map((z) => `${z.label} ${z.easeCm > 0 ? "+" : ""}${z.easeCm}cm`)
+                            .join(" · ")}
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : (
+                <p className="est-status" style={{ maxWidth: "none" }}>
+                  Introduce tus medidas para ver el ajuste.
+                </p>
+              )}
+
+              <p className="shirley-note">
+                ⚠️ Ajuste con tabla estándar aproximada por tipo de prenda (la fábrica no
+                entrega ficha técnica). Si cargas la ficha real, el ajuste será exacto.
+              </p>
+
+              {onTryOn && (
+                <button
+                  className="primary-btn"
+                  onClick={() => {
+                    onTryOn(toGarment(sel));
+                    onClose();
+                  }}
+                >
+                  Probármela en el avatar 3D
+                </button>
+              )}
+            </aside>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}

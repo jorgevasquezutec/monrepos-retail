@@ -23,10 +23,23 @@ export type SizeLabel = string;
 /** Orden canónico de las tallas de LETRA (para chips y ordenación). */
 export const SIZE_ORDER: SizeLabel[] = ["XXS", "XS", "S", "M", "L", "XL", "XXL", "XXXL"];
 
-/** Rango para ordenar: numéricas por su valor; de letra por su posición canónica. */
+/**
+ * Etiquetas de TALLA ÚNICA (one size) normalizadas a "O/S". Muchas fábricas de
+ * punto (chales, ponchos, accesorios) venden casi todo en talla única.
+ */
+export const ONE_SIZE = "O/S";
+const ONE_SIZE_ALIASES = new Set(["O/S", "OS", "O-S", "OSFA", "U", "ÚNICA", "UNICA", "T.U", "TU"]);
+
+/** ¿Es una etiqueta de talla única? (normaliza variantes a O/S). */
+export function isOneSize(s: string): boolean {
+  return ONE_SIZE_ALIASES.has(s.trim().toUpperCase());
+}
+
+/** Rango para ordenar: numéricas por su valor; de letra por su posición; única al final. */
 function sizeRank(s: SizeLabel): number {
   const n = Number(s);
   if (Number.isFinite(n)) return n; // "38" → 38
+  if (isOneSize(s)) return 900; // talla única, antes de "desconocida"
   const i = SIZE_ORDER.indexOf(s);
   return i >= 0 ? i : 999;
 }
@@ -254,6 +267,43 @@ const CSV_KEYS: (keyof GarmentMeasures)[] = [
   "inseam",
 ];
 
+/**
+ * Alias de cabecera → clave canónica. Acepta español (pecho, cintura…), inglés
+ * y variantes comunes de ficha técnica, sin acentos ni mayúsculas. Así una
+ * fábrica puede pegar su tabla tal cual ("talla,pecho,cintura,cadera,largo").
+ */
+const HEADER_ALIASES: Record<string, keyof GarmentMeasures> = {
+  // pecho / busto
+  chest: "chest", pecho: "chest", busto: "chest", bust: "chest", "1/2 pecho": "chest",
+  // cintura
+  waist: "waist", cintura: "waist",
+  // cadera
+  hip: "hip", cadera: "hip", hips: "hip",
+  // muslo
+  thigh: "thigh", muslo: "thigh", pierna: "thigh",
+  // hombro(s)
+  shoulder: "shoulder", hombro: "shoulder", hombros: "shoulder",
+  // largo
+  length: "length", largo: "length", alto: "length", longitud: "length",
+  // manga
+  sleeve: "sleeve", manga: "sleeve", mangas: "sleeve",
+  // entrepierna / tiro interior
+  inseam: "inseam", entrepierna: "inseam", "entre pierna": "inseam", tiro: "inseam",
+};
+
+/** Normaliza una cabecera: sin acentos, minúsculas, espacios colapsados. */
+function normHeader(h: string): string {
+  return h
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, " ");
+}
+
+/** Etiqueta de talla aliases → también acepta "talla", "size", "tla". */
+const TALLA_HEADERS = new Set(["talla", "size", "tla", "tallas"]);
+
 export interface SizeChartParse {
   chart: SizeChart;
   errors: string[];
@@ -283,14 +333,17 @@ export function parseSizeChartCSV(csv: string): SizeChartParse {
     return { chart, errors: ["El CSV necesita una cabecera y al menos una talla."] };
   }
 
-  const header = rows[0].split(",").map((h) => h.trim().toLowerCase());
-  const tallaIdx = header.indexOf("talla");
+  const header = rows[0].split(",").map(normHeader);
+  // Resuelve cada columna a su clave canónica (o null si no es una medida).
+  const colKey: (keyof GarmentMeasures | null)[] = header.map((h) => HEADER_ALIASES[h] ?? null);
+  const tallaIdx = header.findIndex((h) => TALLA_HEADERS.has(h));
   if (tallaIdx === -1) {
     return { chart, errors: ["Falta la columna 'talla' en la cabecera."] };
   }
 
   const validLetters = new Set<string>(SIZE_ORDER);
-  const isValidTalla = (s: string) => validLetters.has(s) || /^\d{1,3}$/.test(s);
+  const isValidTalla = (s: string) =>
+    validLetters.has(s) || /^\d{1,3}$/.test(s) || isOneSize(s);
 
   for (let i = 1; i < rows.length; i++) {
     const cells = rows[i].split(",").map((c) => c.trim());
@@ -299,11 +352,12 @@ export function parseSizeChartCSV(csv: string): SizeChartParse {
       errors.push(`Fila ${i + 1}: talla desconocida "${cells[tallaIdx] ?? ""}" (se omite).`);
       continue;
     }
-    const size = rawTalla as SizeLabel;
+    // Normaliza cualquier variante de talla única a "O/S".
+    const size = (isOneSize(rawTalla) ? ONE_SIZE : rawTalla) as SizeLabel;
     const measures: GarmentMeasures = {};
     for (let c = 0; c < header.length; c++) {
-      const key = header[c] as keyof GarmentMeasures;
-      if (c === tallaIdx || !CSV_KEYS.includes(key)) continue;
+      const key = colKey[c];
+      if (c === tallaIdx || key == null) continue; // columnas desconocidas (p.ej. tolerancia) se ignoran
       const raw = cells[c];
       if (raw == null || raw === "") continue;
       const n = Number(raw);

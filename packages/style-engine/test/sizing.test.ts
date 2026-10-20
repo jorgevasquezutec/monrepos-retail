@@ -19,6 +19,28 @@ const TEE: SizeChart = {
   L: { chest: 108, waist: 104 },
 };
 
+describe("parseSizeChartCSV · fábrica", () => {
+  it("acepta cabeceras en español (pecho/cintura/cadera/largo/manga)", () => {
+    const csv = "talla,pecho,cintura,cadera,largo,manga\nM,104,100,106,62,58";
+    const { chart, errors } = parseSizeChartCSV(csv);
+    expect(errors).toEqual([]);
+    expect(chart.M).toEqual({ chest: 104, waist: 100, hip: 106, length: 62, sleeve: 58 });
+  });
+
+  it("acepta talla única O/S y sus variantes, normalizando a O/S", () => {
+    const csv = "talla,pecho\nOS,120";
+    const { chart } = parseSizeChartCSV(csv);
+    expect(chart["O/S"]).toEqual({ chest: 120 });
+  });
+
+  it("ignora columnas desconocidas como 'tolerancia' sin romper", () => {
+    const csv = "talla,pecho,tolerancia\nM,104,1.5";
+    const { chart, errors } = parseSizeChartCSV(csv);
+    expect(errors).toEqual([]);
+    expect(chart.M).toEqual({ chest: 104 });
+  });
+});
+
 describe("computeFit", () => {
   it("solo evalúa zonas presentes en prenda y cuerpo", () => {
     const body: Measurements = { bust: 94, waist: 82, hip: 96 };

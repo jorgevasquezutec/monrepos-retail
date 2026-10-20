@@ -1567,6 +1567,14 @@ def export_glb(mesh_obj, out_path):
         export_yup=True,
         export_image_format="AUTO",
         export_jpeg_quality=85,
+        # Compresión Draco de la geometría: reduce el GLB ~5-10x (clave cuando el
+        # servicio llega por un enlace lento/remoto). El visor lo descomprime con
+        # DRACOLoader. La cuantización alta mantiene la forma del cuerpo fiel.
+        export_draco_mesh_compression_enable=True,
+        export_draco_mesh_compression_level=6,
+        export_draco_position_quantization=14,
+        export_draco_normal_quantization=10,
+        export_draco_texcoord_quantization=12,
     )
 
 

@@ -12,3 +12,4 @@ export * from "./morphology.js";
 export * from "./catalog.js";
 export * from "./recommend.js";
 export * from "./sizing.js";
+export * from "./defaultCharts.js";
