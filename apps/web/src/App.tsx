@@ -17,6 +17,7 @@ import { BodyForm, type Gender } from "./components/BodyForm.tsx";
 import { Recommendations } from "./components/Recommendations.tsx";
 import { SizeChartImporter } from "./components/SizeChartImporter.tsx";
 import { GarmentUploader } from "./components/GarmentUploader.tsx";
+import { CatalogoShirley } from "./components/CatalogoShirley.tsx";
 import { AuthScreen } from "./components/AuthScreen.tsx";
 import { generateBody, type HairStyle } from "./lib/bodyService.ts";
 import { assetForGarment, sizeScale } from "./lib/clothing.ts";
@@ -66,6 +67,26 @@ export function App() {
 
   // Alta de prenda (modal de gestión de catálogo).
   const [uploaderOpen, setUploaderOpen] = useState(false);
+
+  // Catálogo real de la fábrica (Shirley): navegar y probar prendas reales.
+  const [catalogoOpen, setCatalogoOpen] = useState(false);
+  /** Lleva una prenda de la fábrica al avatar: la añade al catálogo y la viste. */
+  const handleTryOnShirley = useCallback((g: Garment) => {
+    setCatalog((prev) => (prev.some((x) => x.id === g.id) ? prev : [...prev, g]));
+    const slot = g.categoria;
+    setSelected((prev) => {
+      const next = { ...prev };
+      if (slot === "dress") {
+        delete next.top;
+        delete next.bottom;
+        next.dress = g.id;
+        return next;
+      }
+      if (slot === "top" || slot === "bottom") delete next.dress;
+      next[slot] = g.id;
+      return next;
+    });
+  }, []);
 
   // Cuerpo 3D real generado por el servicio (null → maniquí procedural).
   const [bodyUrl, setBodyUrl] = useState<string | null>(null);
@@ -298,6 +319,12 @@ export function App() {
               {bodyControls}
             </>
           )}
+          <button
+            className="primary-btn catalogo-cta"
+            onClick={() => setCatalogoOpen(true)}
+          >
+            Catálogo de fábrica · probar prendas reales
+          </button>
           <SizeChartImporter measurements={medidas} />
         </aside>
       </main>
@@ -306,6 +333,14 @@ export function App() {
         <GarmentUploader
           onClose={() => setUploaderOpen(false)}
           onCreated={(g) => setCatalog((prev) => [...prev, g])}
+        />
+      )}
+
+      {catalogoOpen && (
+        <CatalogoShirley
+          measurements={medidas}
+          onClose={() => setCatalogoOpen(false)}
+          onTryOn={handleTryOnShirley}
         />
       )}
     </div>
